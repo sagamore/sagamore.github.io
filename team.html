@@ -1,0 +1,21 @@
+---
+layout: default
+title: Team
+permalink: /team/
+---
+
+<div class="team">
+
+  <h1 class="page-heading">Team</h1>
+
+  <ul class="post-list">
+    {% for member in site.team %}
+      <li>
+        <span class="member-meta">{{ member.name }}</span>
+        <span class="gendor-meta">({{ member.gendor }})</span>
+      </li>
+    {% endfor %}
+
+  </ul>
+
+</div>
