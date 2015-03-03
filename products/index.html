@@ -10,7 +10,8 @@ title: Products
   <ul class="post-list">
     {% for product in site.categories.products %}
       <li>
-        <span class="member-meta">{{ product.title }}</span>
+        <a class="post-link" href="{{ product.post_url | prepend: site.baseurl }}">{{ product.title }}</a>
+        {{ product.excerpt }}
       </li>
     {% endfor %}
 
