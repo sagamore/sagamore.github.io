@@ -1,0 +1,21 @@
+---
+layout: default
+title: News
+permalink: /news/
+---
+
+<div class="news">
+
+  <h1 class="page-heading">News</h1>
+
+  <ul class="post-list">
+    {% for news in site.data.news %}
+      <li>
+        <h3>{{ news.title }}</h3>
+        {{ news.body | remove: '<p>' | remove: '</p>' }}
+      </li>
+    {% endfor %}
+
+  </ul>
+
+</div>
