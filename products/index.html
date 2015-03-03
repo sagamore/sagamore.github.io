@@ -11,7 +11,7 @@ title: Products
     {% for product in site.categories.products %}
       <li>
         <a class="post-link" href="{{ product.post_url | prepend: site.baseurl }}">{{ product.title }}</a>
-        {{ product.excerpt }}
+        {{ product.excerpt | remove: '<p>' | remove: '</p>' }}
       </li>
     {% endfor %}
 
