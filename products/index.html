@@ -1,0 +1,19 @@
+---
+layout: default
+title: Products
+---
+
+<div class="product">
+
+  <h1 class="page-heading">Products</h1>
+
+  <ul class="post-list">
+    {% for product in site.categories.products %}
+      <li>
+        <span class="member-meta">{{ product.title }}</span>
+      </li>
+    {% endfor %}
+
+  </ul>
+
+</div>
