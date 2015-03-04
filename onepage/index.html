@@ -1,7 +1,11 @@
 ---
 layout: onepage
-title: One page
+title: Sagamore
 permalink: /onepage/
+hours_of_work: 3200
+satisfied_clients: 120
+projects_delivered: 360
+awards_won: 6454
 ---
 
 <!--
@@ -175,81 +179,26 @@ Meet Our Team
 			</div>
 
 			<!-- single member -->
+			{%  assign team = (site.team | sort: 'sort')  %}
+			{% for member in team limit: 4 %}
 			<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
 				<div class="member-thumb">
-					<img src="img/team/member-1.png" alt="Team Member" class="img-responsive">
+					<img src="img/team/{{ member.image }}" alt="{{ member.name }}" class="img-responsive">
 					<figcaption class="overlay">
-						<h5>voluptatem quia voluptas </h5>
-						<p>sit aspernatur aut odit aut fugit,</p>
+						<h5>{{ member.name }}</h5>
+						<p>{{ member.description }}</p>
 						<ul class="social-links text-center">
-							<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-							<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-							<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+							<li><a href="{{ member.twitter_url }}" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+							<li><a href="{{ member.facebook_url }}" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+							<li><a href="{{ member.google_url }}" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a></li>
 						</ul>
 					</figcaption>
 				</div>
-				<h4>John Filmr Doe</h4>
-				<span>Managing Director</span>
+				<h4>{{ member.name }}</h4>
+				<span>{{ member.position }}</span>
 			</figure>
+			{% endfor %}
 			<!-- end single member -->
-			
-			<!-- single member -->
-			<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-				<div class="member-thumb">
-					<img src="img/team/member-2.png" alt="Team Member" class="img-responsive">
-					<figcaption class="overlay">
-						<h5>voluptatem quia voluptas </h5>
-						<p>sit aspernatur aut odit aut fugit,</p>
-						<ul class="social-links text-center">
-							<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-							<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-							<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-						</ul>
-					</figcaption>
-				</div>
-				<h4>Martin Matrone</h4>
-				<span>Lead Developer</span>
-			</figure>
-			<!-- end single member -->
-			
-			<!-- single member -->
-			<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-				<div class="member-thumb">
-					<img src="img/team/member-3.png" alt="Team Member" class="img-responsive">
-					<figcaption class="overlay">
-						<h5>voluptatem quia voluptas </h5>
-						<p>sit aspernatur aut odit aut fugit,</p>
-						<ul class="social-links text-center">
-							<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-							<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-							<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-						</ul>
-					</figcaption>
-				</div>
-				<h4>Steve Flaulkin</h4>
-				<span>Sr. UI Designer</span>
-			</figure>
-			<!-- end single member -->
-			
-			<!-- single member -->
-			<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-				<div class="member-thumb">
-					<img src="img/team/member-1.png" alt="Team Member" class="img-responsive">
-					<figcaption class="overlay">
-						<h5>voluptatem quia voluptas </h5>
-						<p>sit aspernatur aut odit aut fugit,</p>
-						<ul class="social-links text-center">
-							<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-							<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-							<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-						</ul>
-					</figcaption>
-				</div>
-				<h4>John Filmr Doe</h4>
-				<span>Managing Director</span>
-			</figure>
-			<!-- end single member -->
-			
 		</div>
 	</div>
 </section>
@@ -276,7 +225,7 @@ Some fun facts
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
 					<div class="counters-item">
 						<i class="fa fa-clock-o fa-3x"></i>
-						<strong data-to="3200">0</strong>
+						<strong data-to="{{ page.hours_of_work }}">0</strong>
 						<!-- Set Your Number here. i,e. data-to="56" -->
 						<p>Hours of Work</p>
 					</div>
@@ -284,7 +233,7 @@ Some fun facts
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
 					<div class="counters-item">
 						<i class="fa fa-users fa-3x"></i>
-						<strong data-to="120">0</strong>
+						<strong data-to="{{ page.satisfied_clients }}">0</strong>
 						<!-- Set Your Number here. i,e. data-to="56" -->
 						<p>Satisfied Clients</p>
 					</div>
@@ -292,7 +241,7 @@ Some fun facts
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
 					<div class="counters-item">
 						<i class="fa fa-rocket fa-3x"></i>
-						<strong data-to="360">0</strong>
+						<strong data-to="{{ page.projects_delivered }}">0</strong>
 						<!-- Set Your Number here. i,e. data-to="56" -->
 						<p> Projects Delivered </p>
 					</div>
@@ -300,7 +249,7 @@ Some fun facts
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
 					<div class="counters-item">
 						<i class="fa fa-trophy fa-3x"></i>
-						<strong data-to="6454">0</strong>
+						<strong data-to="{{ page.awards_won }}">0</strong>
 						<!-- Set Your Number here. i,e. data-to="56" -->
 						<p>Awards Won</p>
 					</div>
