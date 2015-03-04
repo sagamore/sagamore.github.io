@@ -20,3 +20,6 @@ collections:
 
 # baseurl
 baseurl: /sagamore
+
+#permalink
+permalink:   /:categories/:title/
