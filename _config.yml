@@ -17,3 +17,6 @@ markdown: kramdown
 collections:
   team:
     output: true
+
+# baseurl
+baseurl: /sagamore
