@@ -19,15 +19,15 @@
 		width: 960px;
 	}
 
-	.revelance-small-with-lines:before{
-		left: -175px;
-		width: 150px;
-	}
+	/*.revelance-small-with-lines:before{*/
+		/*left: -175px;*/
+		/*width: 150px;*/
+	/*}*/
 
-	.revelance-small-with-lines:after{
-		right: -175px;
-		width: 150px;
-	}
+	/*.revelance-small-with-lines:after{*/
+		/*right: -175px;*/
+		/*width: 150px;*/
+	/*}*/
 
 	.portfolio_item_4 {
 		width: 33.3%;

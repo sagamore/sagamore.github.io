@@ -39,14 +39,14 @@
 .entypo-directions:before {
 	content: "\e603";
 }
-.section-mail header h3:after,
-.entypo-mail:before {
-	content: "\e604";
-}
-.section-paperplane header h3:after,
-.entypo-paperplane:before {
-	content: "\e605";
-}
+/*.section-mail header h3:after,*/
+/*.entypo-mail:before {*/
+	/*content: "\e604";*/
+/*}*/
+/*.section-paperplane header h3:after,*/
+/*.entypo-paperplane:before {*/
+	/*content: "\e605";*/
+/*}*/
 .section-pencil header h3:after,
 .entypo-pencil:before {
 	content: "\e606";
@@ -79,10 +79,10 @@
 .entypo-user:before {
 	content: "\e60d";
 }
-.section-users header h3:after,
-.entypo-users:before {
-	content: "\e60e";
-}
+/*.section-users header h3:after,*/
+/*.entypo-users:before {*/
+	/*content: "\e60e";*/
+/*}*/
 .section-user-add header h3:after,
 .entypo-user-add:before {
 	content: "\e60f";
@@ -195,10 +195,10 @@
 .entypo-cog:before {
 	content: "\e62a";
 }
-.section-tools header h3:after,
-.entypo-tools:before {
-	content: "\e62b";
-}
+/*.section-tools header h3:after,*/
+/*.entypo-tools:before {*/
+	/*content: "\e62b";*/
+/*}*/
 .section-trophy header h3:after,
 .entypo-trophy:before {
 	content: "\e62c";
@@ -207,10 +207,10 @@
 .entypo-tag:before {
 	content: "\e62d";
 }
-.section-camera header h3:after,
-.entypo-camera:before {
-	content: "\e62e";
-}
+/*.section-camera header h3:after,*/
+/*.entypo-camera:before {*/
+	/*content: "\e62e";*/
+/*}*/
 .section-megaphone header h3:after,
 .entypo-megaphone:before {
 	content: "\e62f";
@@ -415,10 +415,10 @@
 .entypo-infinity:before {
 	content: "\e661";
 }
-.section-light-bulb header h3:after,
-.entypo-light-bulb:before {
-	content: "\e662";
-}
+/*.section-light-bulb header h3:after,*/
+/*.entypo-light-bulb:before {*/
+	/*content: "\e662";*/
+/*}*/
 .section-creditcard header h3:after,
 .entypo-creditcard:before {
 	content: "\e663";
