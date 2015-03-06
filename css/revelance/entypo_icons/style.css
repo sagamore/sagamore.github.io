@@ -5511,3 +5511,11 @@ Author URI: http://www.ab-themes.com
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
 }
+
+.overlay_front, .overlay_back, 
+.overlay_front a, .overlay_back a,
+.overlay_front a:hover, .overlay_back:hover,
+.overlay_front a:active, .overlay_back:active,
+.overlay_front a:focus, .overlay_back:focus{
+    color: #ffffff;
+}
