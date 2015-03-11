@@ -21,6 +21,14 @@ collections:
     output: true
   work:
     output: true
+  slider:
+    output: true
+  fund_investments:
+    output: true
+  direct_investments:
+    output: true
+  contact:
+    output: true
 
 # baseurl
 baseurl: /sagamore

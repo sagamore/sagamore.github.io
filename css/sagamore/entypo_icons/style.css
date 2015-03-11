@@ -280,6 +280,9 @@ Author URI: http://www.ab-themes.com
 	.team_container [class*="column_dd_span"]:nth-child(4n+1){
 		margin-left: 0 !important;
 	}
+    .direct_investment_container [class*="column_dd_span"]:nth-child(3n+1){
+        margin-left: 0 !important;
+    }
 
 	.revel_column_dd_span12  {width: 100%;}
 	.revel_column_dd_span11  {width: 91.45299145299145%;}
