@@ -15,20 +15,13 @@ markdown: kramdown
 
 # Collections
 collections:
-  team:
-    output: true
-  features:
-    output: true
-  work:
-    output: true
-  slider:
-    output: true
-  fund_investments:
-    output: true
-  direct_investments:
-    output: true
-  contact:
-    output: true
+  - team
+  - features
+  - work
+  - slider
+  - fund_investments
+  - direct_investments
+  - contact
 
 # baseurl
 baseurl: /sagamore

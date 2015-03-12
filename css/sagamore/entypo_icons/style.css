@@ -181,25 +181,42 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel_section_dd header h3{
-		font-family: 'Optima LT Std Roman';
+		font-family: 'Optima';
 		font-weight: 300;
 		display: inline-block;
-		color: rgb(18, 52, 102);
+		color: #375193;
 		text-transform: uppercase;
-		font-size: 36px;
-		line-height: 36px;
-		margin-bottom: 49px;
+		font-size: 40px;
+		line-height: 40px;
+		margin-bottom: 40px;
 		position: relative;
 	}
 
+    .revel_section_dd header h3:after {
+        background: none repeat scroll 0 0 #d9d9d9;
+        content: "";
+        display: block;
+        height: 1px;
+        margin: 40px auto 0;
+        position: relative;
+        width: 200px;
+    }
+
+    .revel_section_dd header h4{
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 24px;
+        color: #375193;
+    }
+
 	.revel_section_dd header p{
-		font-family: 'Optima LT Std Roman';
+		font-family: 'Optima';
 		font-weight: 300;
 		font-size: 18px;
-		margin-bottom: 85px;
-		/*text-transform: uppercase;*/
-		color: #676767;
-		line-height: 24px;
+        line-height: 26px;
+        margin-bottom: 80px;
+        /*text-transform: uppercase;*/
+        color: #6e7479;
 	}
 
 	.revel_section_dd.pattern_overlayed header h3,
@@ -213,7 +230,7 @@ Author URI: http://www.ab-themes.com
 
 	.revel_section_dd.pattern_overlayed a,
 	.revel_section_dd.color_overlayed a{
-		color: rgb(18, 52, 102);
+		color: #375193;
 	}
 
 	.section_gray_body .revel_section_content{
@@ -226,7 +243,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.section_with_gray_background{
-		background: #f1f1f1;
+		background: #fcfcfc;
 	}
 
 	.spacer_40{
@@ -415,7 +432,7 @@ Author URI: http://www.ab-themes.com
 
 	.revel-tabs .ui-tabs-nav li:hover a{
 		/*color: #333;*/
-		color:rgb(18, 52, 102);
+		color:#375193;
 	}
 
 	.revel-tabs .ui-tabs-nav li.ui-tabs-active {
@@ -855,7 +872,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel_blockquote p small{
-		color: rgb(18, 52, 102);
+		color: #375193;
 		font-size: 24px;
 		font-style: italic;
 		font-weight: 400;
@@ -929,7 +946,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel_stats_excerpt i{
-		color: rgb(18, 52, 102);
+		color: #375193;
 		font-size: 32px;
 		margin-right: 13px;
 		position: absolute;
@@ -942,14 +959,14 @@ Author URI: http://www.ab-themes.com
 	.revel_stats_excerpt .revel_stats_number_sign{
 		font-size: 70px;
 		line-height: 70px;
-		color: rgb(18, 52, 102);
+		color: #375193;
 		font-weight: 600;
 	}
 
 	.revel_stats_excerpt p{
 		font-size: 18px;
 		padding-top: 11px;
-		font-family: 'Optima LT Std Roman';
+		font-family: 'Optima';
 		color: #505050;
 	}
 
@@ -1097,14 +1114,12 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel_team_member .revel_team_member_position{
-		text-transform: uppercase;
 	}
 
 	.revel_team_member .revel_team_member_name{
 		display: block;
-		font-weight: 600;
+		font-weight: 300;
 		font-size: 16px;
-		text-transform: uppercase;
 		margin-bottom: 2px;
 	}
 
@@ -1120,7 +1135,7 @@ Author URI: http://www.ab-themes.com
 		display: inline-block;
 		font-weight: 400;
 		font-size: 12px;
-		color: rgb(18, 52, 102);
+		color: #375193;
 		margin-bottom: 8px;
 	}
 
@@ -1142,7 +1157,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel_team_member .revel_team_member_social_under a:hover i{
-		color: rgb(18, 52, 102);
+		color: #375193;
 	}
 
 	.revel_team_member_modal{
@@ -1545,9 +1560,9 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel_service_box h3{
-		margin-bottom: 19px;
-		color: #676767;
-		font-size: 18px;
+		margin-bottom: 40px;
+		color: #375193;
+		font-size: 26px;
 		font-weight: 400;
 	}
 
@@ -1562,7 +1577,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel_service_box.revel_service_box_round_aside h3:hover{
-		color: rgb(18, 52, 102);
+		color: #375193;
 	}
 
 	.revel_service_box.revel_service_box_round_aside p{
@@ -1594,7 +1609,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel_service_box.revel_service_box_aside_small h3:hover{
-		color: rgb(18, 52, 102);
+		color: #375193;
 	}
 
 	.revel_service_box.revel_service_box_aside_small p{
@@ -1614,7 +1629,7 @@ Author URI: http://www.ab-themes.com
 	.revel_service_box.revel_service_box_aside_small .revel_icon_boxed i{
 		line-height: 26px;
 		font-size: 26px;
-		color: rgb(18, 52, 102);
+		color: #375193;
 	}
 
 	.revel_service_box_square .revel_icon_boxed{
@@ -1637,7 +1652,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel_service_box_square:hover .revel_icon_boxed i{
-		color: rgb(18, 52, 102);
+		color: #375193;
 	}
 
 	/********** 2.19. Element: Divider *************************************************************/
@@ -1963,7 +1978,7 @@ Author URI: http://www.ab-themes.com
 		display: block;
 		font-weight: 700;
 		font-size: 22px;
-		font-family: 'Optima LT Std Roman';
+		font-family: 'Optima';
 		color: #505050;
 		margin-bottom: 8px;
 	}
@@ -2230,13 +2245,13 @@ Author URI: http://www.ab-themes.com
 
 /*-------- 2.34. Latest news --------*/
 	.latest_news_shortcode_content h5{
-		color: rgb(18, 52, 102);
+		color: #375193;
 		font-size: 19px;
 		margin-bottom: 0;
 	}
 
 	.latest_news_shortcode_content h5 a{
-		color: rgb(18, 52, 102);
+		color: #375193;
 	}
 
 	.latest_news_shortcode_content p{
@@ -2290,7 +2305,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.ABdev_overlayed .ABdev_overlay p a:hover{
-		color: rgb(18, 52, 102);
+		color: #375193;
 	}
 
 	.ABdev_overlayed .ABdev_overlay i{
@@ -2520,7 +2535,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.ABt_testimonials_slide .testimonial_big p{
-		font-family: 'Optima LT Std Roman';
+		font-family: 'Optima';
 		font-size: 26px;
 		font-style: italic;
 		line-height: 37px;
@@ -2533,7 +2548,7 @@ Author URI: http://www.ab-themes.com
 
 	.ABt_testimonials_slide .testimonial_big .source,
 	.ABt_testimonials_slide .testimonial_big .source a{
-		color: rgb(18, 52, 102);
+		color: #375193;
 		font-size: 20px;
 		font-weight: normal;
 	}
@@ -2561,7 +2576,7 @@ Author URI: http://www.ab-themes.com
 	
 	/*-------- 2.39. Hire Us --------*/
 	.hire_us{
-		font-family: 'Optima LT Std Roman';
+		font-family: 'Optima';
 		font-weight: 300;
 		font-size: 23px;
 		line-height: 30px;
@@ -2582,8 +2597,8 @@ Author URI: http://www.ab-themes.com
 /* 03. Global styles
 /*-----------------------------------------------------------------*/
 	body{
-		font-family: 'Optima LT Std Roman', sans-serif;
-		color: #676767;
+		font-family: 'Optima', sans-serif;
+		color: #6e7479;
 		font-size: 14px;
 		font-weight: 300;
 		line-height: 17px;
@@ -2663,7 +2678,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	h1, h2, h3, h4, h5, h6{
-		font-family: 'Optima LT Std Roman';
+		font-family: 'Optima';
 		font-weight: 300;
 		color: #333;
 		margin-bottom: 17px;
@@ -2702,7 +2717,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	h3 span{
-		font-family: 'Optima LT Std Roman';
+		font-family: 'Optima';
 		font-weight: 400;
 		font-size: 24px;
 		line-height: 24px;
@@ -2770,14 +2785,14 @@ Author URI: http://www.ab-themes.com
 		bottom: 25px;
 		left: 50%;
 		margin-left: -18px;
-		color: rgb(18, 52, 102);
+		color: #375193;
 		font-family: 'entypo';
 		font-size: 18px;
 		content: "\e662";
 	}
 
 	.revel_section_dd header p{
-		padding: 0 220px;
+		padding: 0;
 	}
 
 	input[type="text"],input[type="password"],input[type="email"]{
@@ -2841,7 +2856,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.color_highlight{
-		color: rgb(18, 52, 102);
+		color: #375193;
 	}
 
 	.bold{
@@ -3112,7 +3127,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	#abdev_main_header.menu_over_slider{
-		background: none;
+		background: white;
 		-webkit-box-shadow: none;
 		box-shadow: none;
 	}
@@ -3139,8 +3154,8 @@ Author URI: http://www.ab-themes.com
 	}
 
 	#abdev_main_header.menu_over_slider .menu_social:hover{
-		color: rgb(18, 52, 102);
-		border-color: rgb(18, 52, 102);
+		color: #375193;
+		border-color: #375193;
 	}
 
 	#abdev_main_slider{
@@ -3190,7 +3205,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.abdev_main_slider_scroll_info{
-		font-family: 'Optima LT Std Roman';
+		font-family: 'Optima';
 		text-transform: uppercase;
 	}
 
@@ -3222,22 +3237,27 @@ Author URI: http://www.ab-themes.com
 	}
 
 	nav > ul > li a{
-		color: #333;
-		font-family: 'Optima LT Std Roman';
+		color: #375193;
+		font-family: 'Optima';
 		font-weight: 400;
-		font-size: 13px;
-		text-transform: uppercase;
+		font-size: 18px;
 		text-align: center;
 		display: inline-block;
 		padding-bottom: 4px;
 	}
 
 	nav > ul > li > a{
-		margin-left: 32px;
+		padding-left: 16px;
+		padding-right: 16px;
+        border-left: 1px solid #e1e3e6;
 	}
 
+    nav > ul > li:first-child > a{
+        border-left: none;
+    }
+
 	nav > ul > li a:hover{
-		color: rgb(18, 52, 102);
+		color: #375193;
 	}
 
 	nav > ul > li span{
@@ -3330,8 +3350,8 @@ Author URI: http://www.ab-themes.com
 	}
 
 	nav .menu_social:hover{
-		color: rgb(18, 52, 102);
-		border-color: rgb(18, 52, 102);
+		color: #375193;
+		border-color: #375193;
 	}
 
 	.sf-arrows .sf-with-ul:after{
@@ -3364,15 +3384,15 @@ Author URI: http://www.ab-themes.com
 	nav > ul > .current-menu-item > a,
 	nav > ul > .current-post-ancestor > a,
 	nav > ul > .current-menu-ancestor > a{
-		color: rgb(18, 52, 102);
+		color: #375193;
 	}
 
 	#abdev_main_header.menu_over_slider nav > ul > li a{
-		color: #fff;
+		color: #375193;
 	}
 
 	#abdev_main_header.menu_over_slider nav > ul > li a:hover{
-		color: rgb(18, 52, 102);
+		color: #375193;
 	}
 
 	#abdev_main_header.menu_over_slider nav > ul ul{
@@ -3398,7 +3418,7 @@ Author URI: http://www.ab-themes.com
 	#teaser_bar{
 		background: #f6f6f6;
 		padding: 55px 0;
-		font-family: 'Optima LT Std Roman';
+		font-family: 'Optima';
 		font-weight: 300;
 		font-size: 18px;
 	}
@@ -3582,7 +3602,7 @@ Author URI: http://www.ab-themes.com
 		font-size: 26px;
 		text-transform: uppercase;
 		font-weight: 300;
-		font-family: 'Optima LT Std Roman';
+		font-family: 'Optima';
 		margin-bottom: 10px;
 		color: #333;
 	}
@@ -3626,8 +3646,8 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.more-link:hover{
-		background: rgb(18, 52, 102);
-		border: 1px solid rgb(18, 52, 102);
+		background: #375193;
+		border: 1px solid #375193;
 		color: #fff !important;
 	}
 
@@ -3710,7 +3730,7 @@ Author URI: http://www.ab-themes.com
 
 	.comment .reply a:hover,
 	.comment .edit-link a:hover{
-		color: rgb(18, 52, 102);
+		color: #375193;
 	}
 
 	.comment .reply:after,
@@ -3734,7 +3754,7 @@ Author URI: http://www.ab-themes.com
 
 	#respond .comment-reply-title{
 		text-transform: uppercase;
-		font-family: 'Optima LT Std Roman';
+		font-family: 'Optima';
 		font-weight: 700;
 		font-size: 22px;
 	}
@@ -3766,7 +3786,7 @@ Author URI: http://www.ab-themes.com
 		border: none;
 		text-transform: uppercase;
 		font-weight: 700;
-		font-family: 'Optima LT Std Roman';
+		font-family: 'Optima';
 		font-size: 13px;
 		padding: 14px 11px;
 		margin-bottom: 23px;
@@ -3893,7 +3913,7 @@ Author URI: http://www.ab-themes.com
 		color: #fff !important;
 		margin: 0;
 		font-size: 15px !important;
-		font-family: 'Optima LT Std Roman';
+		font-family: 'Optima';
 		font-weight: 700;
 		text-transform: uppercase;
 		line-height: 15px;
@@ -3925,7 +3945,7 @@ Author URI: http://www.ab-themes.com
 	aside .widget h3{
 		font-size: 18px;
 		font-weight: 300;
-		font-family: 'Optima LT Std Roman';
+		font-family: 'Optima';
 		text-transform: uppercase;
 		color: #333;
 		margin-bottom: 10px;
@@ -3937,7 +3957,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	aside .widget a:hover{
-		color: rgb(18, 52, 102);
+		color: #375193;
 	}
 
 	aside .widget select{
@@ -4003,7 +4023,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.search_resuls_number{
-		font-family: 'Optima LT Std Roman';
+		font-family: 'Optima';
 		font-size: 19px;
 		font-weight: 300;
 		position: absolute;
@@ -4051,7 +4071,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	#footer_punchline i{
-		color: rgb(18, 52, 102);
+		color: #375193;
 		line-height: 15px;
 		font-size: 15px;
 	}
@@ -5159,7 +5179,7 @@ Author URI: http://www.ab-themes.com
 
 	.portfolio_item h4 a:hover,
 	.portfolio_item:hover h4 a{
-		color: rgb(18, 52, 102);
+		color: #375193;
 	}
 
 	.portfolio_item .overlayed .overlay {
@@ -5380,9 +5400,9 @@ Author URI: http://www.ab-themes.com
 	#page404 .big_404{
 		font-size: 410px;
 		line-height: 410px;
-		font-family: 'Optima LT Std Roman';
+		font-family: 'Optima';
 		font-weight: 500;
-		color: rgb(18, 52, 102);
+		color: #375193;
 	}
 
 
@@ -5401,13 +5421,10 @@ Author URI: http://www.ab-themes.com
 	}
 
 	#abdev_back_to_top{
-		display: inline-block;
-		border: 1px solid #6a6a6a;
-		width: 40px;
-		height: 40px;
-		-webkit-border-radius: 50%;
-		-moz-border-radius: 50%;
-		border-radius: 50%;
+		background: url("../images/arrow.png") scroll no-repeat center center transparent;
+        display: inline-block;
+		width: 59px;
+		height: 31px;
 		margin-bottom: 31px;
 	}
 
@@ -5417,20 +5434,110 @@ Author URI: http://www.ab-themes.com
 		line-height: 36px;
 	}
 
-	#abdev_back_to_top:hover{	
-		background-color: #e42382;
-		border-color: #e42382;
-	}
-
 	#abdev_back_to_top:hover i{	
 		color: #fff;
 	}
+body > section{
+    border-top: 1px solid #f2f2f2;
+}
+section#abdev_main_slider,
+section#fund_investments{
+    border-top: none;
+}
+#fund_investments .revel_column_dd_span3 .fund_investments_icons{
+    background: url("../images/fund_investments_icons.png") scroll no-repeat left center transparent;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 40px auto;
+    border-radius: 50%;
+    border: 1px solid #375193;
+}
+#fund_investments .revel_column_dd_span3:nth-child(2) .fund_investments_icons{
+    background-position: -100px center;
+}
+#fund_investments .revel_column_dd_span3:nth-child(3) .fund_investments_icons{
+    background-position: -200px center;
+}
+#fund_investments .revel_column_dd_span3:nth-child(4) .fund_investments_icons{
+    background-position: -300px center;
+}
+#direct_investments .revel_team_member{
+    position: relative;
+    width: 335px;
+    height: 433px;
+    border: 1px solid #f2f2f2;
+}
+#direct_investments .revel_team_member .overlay_front{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: white;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    color: #6e7479;
+}
 
-
+#direct_investments .revel_team_member .overlay_back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: white;
+    padding: 10px;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    transform: rotateY(-90deg);
+}
+#direct_investments .revel_team_member:hover .overlay_front{
+    -moz-transform: rotateY(90deg);
+    -webkit-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+}
+#direct_investments .revel_team_member:hover .overlay_back{
+    background: white;
+    color: #6e7479;
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+#direct_investments .overlay_front .content{
+    position: absolute;
+    top: 130px;
+    left: 0;
+    margin: 0 20px;
+    background: white;
+    padding-top: 20px;
+}
+#direct_investments .overlay_front .content .revel_title {
+    color: #375193;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+#direct_investments .overlay_front .content p {
+    margin-bottom: 40px;
+}
+#direct_investments .overlay_front .content .link {
+    color: #375193;
+}
+#history{
+    padding-bottom: 80px;
+}
+#team .revel_team_member{
+    margin-bottom: 30px;
+    padding-bottom: 0;
+}
 #team .revel_overlayed{
     position: relative;
     width: 245px;
-    height: 202px;
+    height: 245px;
+    border: 1px solid #f2f2f2;
+    margin-bottom: 0;
 }
 #team .revel_overlayed .overlay_front{
     top: 0;
@@ -5444,77 +5551,53 @@ Author URI: http://www.ab-themes.com
     transition: opacity 0.5s ease-in-out;
 }
 #team .revel_overlayed .overlay_front .revel_team_member_link{
-    background: none repeat scroll 0 0 rgb(200, 200, 200);
+    background: white;
     bottom: 0;
     display: block;
     left: 0;
     position: absolute;
     width: 100%;
     z-index: 2;
-    padding: 5px;
+    padding: 15px 5px;
     opacity: 1;
+    min-height: 80px;
+    color: #375193;
+}
+#team .revel_overlayed .overlay_front .revel_team_member_link .revel_team_member_name{
+    font-size: 24px;
+}
+#team .revel_overlayed .overlay_front .revel_team_member_link .revel_team_member_position{
+    color: #6e7479;
 }
 #team .revel_overlayed .overlay_back{
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: 1;
-    background: #3B99FC;
+    background: #375193;
     padding: 10px;
     opacity: 0;
-    text-align: left;
+    text-align: center;
     -moz-transition: opacity 0.5s ease-in-out;
     -webkit-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
-}
-#team .revel_overlayed:hover .overlay_front{
-    opacity: 0;
+    z-index: 2;
 }
 #team .revel_overlayed:hover .overlay_back{
-    opacity: 1;
+    opacity: 0.9;
 }
-
-#direct_investments .revel_team_member{
-    position: relative;
-    width: 335px;
-    height: 433px;
+#contact .contact_icons{
+    background: url("../images/contact_icons.png") scroll no-repeat left center transparent;
+    width: 202px;
+    height: 202px;
+    margin: 0 auto 40px auto;
 }
-#direct_investments .revel_team_member .overlay_front{
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    background: rgb(18, 52, 102);
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+#contact .revel_column_dd_span4:nth-child(2) .contact_icons{
+    background-position: -202px center;
 }
-
-#direct_investments .revel_team_member .overlay_back{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    background: #3B99FC;
-    padding: 10px;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    transform: rotateY(-90deg);
+#contact .revel_column_dd_span4:nth-child(3) .contact_icons{
+    background-position: -404px center;
 }
-#direct_investments .revel_team_member:hover .overlay_front{
-    -moz-transform: rotateY(90deg);
-    -webkit-transform: rotateY(90deg);
-    transform: rotateY(90deg);
-}
-#direct_investments .revel_team_member:hover .overlay_back{
-    -moz-transform: rotateY(0deg);
-    -webkit-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-}
-
 .overlay_front, .overlay_back, 
 .overlay_front a, .overlay_back a,
 .overlay_front a:hover, .overlay_back:hover,

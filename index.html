@@ -53,12 +53,12 @@ published: true
     </div>
 </section>
 
-<section id="fund_investments" class="revel_section_dd section-tools section_with_gray_background">
+<section id="fund_investments" class="revel_section_dd section-tools">
     <header>
         <div class="revel_container">
             <h3>Fund Investments</h3>
-
-            <p>General description about the Investments</p>
+            <h4>General description about the Investments</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aut consequuntur cum debitis dicta dolorem est fugit impedit labore molestiae nisi numquam possimus, quae reiciendis sunt ullam velit voluptatem voluptatibus.</p>
         </div>
     </header>
     <div class="revel_section_content">
@@ -68,8 +68,8 @@ published: true
             <div class="revel_column_dd_span3">
                 <div class="revel_service_box revel_service_box_square">
                     <div class="revel_service_box_header">
-                        <div class="revel_icon_boxed">
-                            <i class="entypo-statistics"></i>
+                        <div class="fund_investments_icons">
+                            &nbsp;
                         </div>
                         <h3>{{ fund_investment.title }}</h3>
                     </div>
@@ -84,7 +84,7 @@ published: true
     </div>
 </section>
 
-<section id="direct_investments" class="revel_section_dd section-users">
+<section id="direct_investments" class="revel_section_dd section-users section_with_gray_background">
     <header>
         <div class="revel_container">
             <h3>Direct Investments</h3>
@@ -101,32 +101,34 @@ published: true
             {% assign direct_investments = (site.direct_investments | sort: 'sort') %}
             {% for direct_investment in direct_investments limit:6 %}
             <div class="revel_column_dd_span4">
-                <div class="revel_team_member revel_team_member_style_1">
-                    <div class="overlay_front">
-                        <div class="revel_overlayed">
-                            <img src="{{ direct_investment.image }}" alt="{{ direct_investment.title }}">
-                        </div>
-                        <a class="revel_team_member_link" href="#">
-                            <span class="revel_team_member_name">{{ direct_investment.title }}</span>
-                        </a>
+                <a href="{{ direct_investment.href }}" target="_blank">
+                    <div class="revel_team_member revel_team_member_style_1">
+                        <div class="overlay_front">
+                            <div class="revel_overlayed">
+                                <div class="image_container">
+                                    <img src="{{ direct_investment.image }}" alt="{{ direct_investment.title }}">
+                                </div>
+                                <div class="content">
+                                    <h3 class="revel_title">{{ direct_investment.title }}</h3>
 
-                        <p>{{ direct_investment.subtitle }}</p>
+                                    <p>{{ direct_investment.subtitle }}</p>
 
-                        <div class="revel_team_member_social_under">
-                            <a href="{{ direct_investment.href }}" target="_blank">
-                                {{ direct_investment.label }}
-                            </a>
+                                    <div class="revel_social_under">
+                                        <span class="link">{{ direct_investment.label }}</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <div class="overlay_back">{{ direct_investment.description }}</div>
                     </div>
-                    <div class="overlay_back">{{ direct_investment.description }}</div>
-                </div>
+                </a>
             </div>
             {% endfor %}
         </div>
     </div>
 </section>
 
-<section id="history" class="revel_section_dd no_padding_bottom section-light-bulb section_with_gray_background">
+<section id="history" class="revel_section_dd no_padding_bottom section-light-bulb">
     <header>
         <div class="revel_container">
             <h3>History</h3>
@@ -138,14 +140,25 @@ published: true
                 amet feugiat. Maecenas vehicula placerat iaculis. Donec pulvinar pellentesque orci ut congue.</p>
         </div>
     </header>
+    <div class="revel_section_content">
+        <div class="revel_container">
+            <div class="revel_column_dd_span12 aligncenter">
+                <div class="revel-animo" data-animation="fadeInUp" data-duration="1000" data-delay="0">
+                    <img src="images/ipad_img.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section id="team" class="revel_section_dd section-users">
+<section id="team" class="revel_section_dd section-users section_with_gray_background">
     <header>
         <div class="revel_container ">
             <h3>Team</h3>
 
             <h4>General description about the Team</h4>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis in ipsam rem vitae. Aperiam deleniti error eum expedita, explicabo laborum quia sint tempore veritatis voluptate. Eos esse magnam ut!</p>
         </div>
     </header>
     <div class="revel_section_content">
@@ -178,6 +191,8 @@ published: true
             <h3>Contact</h3>
 
             <h4>General description about contacting</h4>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consequuntur cum error est inventore ipsa libero reiciendis repellendus ullam ut. Assumenda harum minima nostrum placeat qui? Ab culpa mollitia temporibus.</p>
         </div>
     </header>
     <div class="revel_section_content">
@@ -187,8 +202,8 @@ published: true
             <div class="revel_column_dd_span4">
                 <div class="revel_service_box revel_service_box_square">
                     <div class="revel_service_box_header">
-                        <div class="revel_icon_boxed">
-                            <i class="entypo-pie"></i>
+                        <div class="contact_icons">
+                            &nbsp;
                         </div>
                         <h3>{{ contact.title }}</h3>
                     </div>
