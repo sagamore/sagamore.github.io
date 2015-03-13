@@ -43,13 +43,10 @@ prose:
     - /.gitignore
     - /about.md
     - feed.xml
-   metadata: 
-   	_team:
-    	- name: "name"
-        	    field:
-        			element: "text"
-        			label: "Team member name"
-                    help: "Please enter the name of the team member."
-                    type: "text"
-
+  metadata:
+    _team:
+      - name: "name"
+        field:
+          element: "text"
+          label: "title"
 
