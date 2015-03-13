@@ -50,4 +50,7 @@ prose:
         field:
           element: "text"
           label: "title"
-
+      - name: "gendor"
+        field:
+          element: "text"
+          label: "gender"
