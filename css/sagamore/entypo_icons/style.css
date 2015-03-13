@@ -5440,6 +5440,9 @@ Author URI: http://www.ab-themes.com
 body > section{
     border-top: 1px solid #f2f2f2;
 }
+#abdev_main_slider{
+    overflow: hidden;
+}
 section#abdev_main_slider,
 section#fund_investments{
     border-top: none;
@@ -5598,7 +5601,7 @@ section#fund_investments{
 #contact .revel_column_dd_span4:nth-child(3) .contact_icons{
     background-position: -404px center;
 }
-.overlay_front, .overlay_back, 
+.overlay_front, .overlay_back,
 .overlay_front a, .overlay_back a,
 .overlay_front a:hover, .overlay_back:hover,
 .overlay_front a:active, .overlay_back:active,
