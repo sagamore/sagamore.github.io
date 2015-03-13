@@ -41,3 +41,5 @@ prose:
     - /css
     - /js
     - /.gitignore
+    - /about.md
+
