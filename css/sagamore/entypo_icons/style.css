@@ -2634,14 +2634,14 @@ Author URI: http://www.ab-themes.com
 	}
 
 	a{
-		color: #505050;
+		color: #6e7479;
 		text-decoration: none;
 		transition: all 180ms ease-in;
 		-webkit-transition: all 180ms ease-in;
 	}
 
 	a:hover{
-		color: #656565;
+		color: #6e7479;
 		transition: all 180ms ease-in;
 		-webkit-transition: all 180ms ease-in;
 	}
@@ -3127,7 +3127,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	#abdev_main_header.menu_over_slider{
-		background: white;
+		background: transparent;
 		-webkit-box-shadow: none;
 		box-shadow: none;
 	}
@@ -3388,11 +3388,11 @@ Author URI: http://www.ab-themes.com
 	}
 
 	#abdev_main_header.menu_over_slider nav > ul > li a{
-		color: #375193;
+		color: white;
 	}
 
 	#abdev_main_header.menu_over_slider nav > ul > li a:hover{
-		color: #375193;
+		color: white;
 	}
 
 	#abdev_main_header.menu_over_slider nav > ul ul{
@@ -5478,9 +5478,9 @@ section#fund_investments{
     height: 100%;
     z-index: 2;
     background: white;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out 0.2s;
+    -webkit-transition: all 0.5s ease-in-out 0.2s;
+    transition: all 0.5s ease-in-out 0.2s;
     color: #6e7479;
 }
 
@@ -5491,10 +5491,11 @@ section#fund_investments{
     z-index: 1;
     background: white;
     padding: 10px;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out 0.2s;
+    -webkit-transition: all 0.5s ease-in-out 0.2s;
+    transition: all 0.5s ease-in-out 0.2s;
     transform: rotateY(-90deg);
+    overflow: hidden;
 }
 #direct_investments .revel_team_member:hover .overlay_front{
     -moz-transform: rotateY(90deg);
@@ -5527,6 +5528,19 @@ section#fund_investments{
 }
 #direct_investments .overlay_front .content .link {
     color: #375193;
+}
+#direct_investments .overlay_back .image_container{
+    position: absolute;
+    left: 0;
+    bottom: 1000px;
+    opacity: 0;
+    -moz-transition: all 0.5s ease-in-out 0.5s;
+    -webkit-transition: all 0.5s ease-in-out 0.5s;
+    transition: all 0.5s ease-in-out 0.5s;
+}
+#direct_investments .revel_team_member:hover .overlay_back .image_container{
+    bottom: 0;
+    opacity: 1;
 }
 #history{
     padding-bottom: 80px;

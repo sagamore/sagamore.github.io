@@ -121,7 +121,14 @@ published: true
                                 </div>
                             </div>
                         </div>
-                        <div class="overlay_back">{{ direct_investment.description }}</div>
+                        <div class="overlay_back">
+                            <div class="description">
+                                {{ direct_investment.description }}
+                            </div>
+                            <div class="image_container">
+                                <img src="{{ direct_investment.image }}" alt="{{ direct_investment.title }}">
+                            </div>
+                        </div>
                     </div>
                 </a>
             </div>
@@ -214,7 +221,7 @@ published: true
                         {{ contact.telphone }}<br>
                         {% endif %}
                         {% if contact.email %}
-                        {{ contact.email }}<br>
+                        <a href="mailto:{{ contact.email }}">{{ contact.email }}</a><br>
                         {% endif %}
                     </p>
                 </div>
