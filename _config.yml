@@ -42,4 +42,6 @@ prose:
     - /js
     - /.gitignore
     - /about.md
+    - feed.xml
+
 
