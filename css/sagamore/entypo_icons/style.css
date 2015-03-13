@@ -5532,7 +5532,7 @@ section#fund_investments{
 #direct_investments .overlay_back .image_container{
     position: absolute;
     left: 0;
-    bottom: 1000px;
+    bottom: 400px;
     opacity: 0;
     -moz-transition: all 0.5s ease-in-out 0.5s;
     -webkit-transition: all 0.5s ease-in-out 0.5s;
