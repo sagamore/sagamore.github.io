@@ -5530,17 +5530,17 @@ section#fund_investments{
     color: #375193;
 }
 #direct_investments .overlay_back .image_container{
-    position: absolute;
-    left: 0;
-    bottom: 400px;
-    opacity: 0;
-    -moz-transition: all 0.5s ease-in-out 0.5s;
-    -webkit-transition: all 0.5s ease-in-out 0.5s;
-    transition: all 0.5s ease-in-out 0.5s;
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*bottom: 400px;*/
+    /*opacity: 0;*/
+    /*-moz-transition: all 0.5s ease-in-out 0.5s;*/
+    /*-webkit-transition: all 0.5s ease-in-out 0.5s;*/
+    /*transition: all 0.5s ease-in-out 0.5s;*/
 }
 #direct_investments .revel_team_member:hover .overlay_back .image_container{
-    bottom: 0;
-    opacity: 1;
+    /*bottom: 0;*/
+    /*opacity: 1;*/
 }
 #history{
     padding-bottom: 80px;
