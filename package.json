@@ -1,0 +1,10 @@
+{
+  "name": "Sagamore",
+  "title": "sagamore",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "^0.4.1",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

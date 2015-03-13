@@ -103,34 +103,36 @@ published: true
             {% assign direct_investments = (site.direct_investments | sort: 'sort') %}
             {% for direct_investment in direct_investments limit:6 %}
             <div class="revel_column_dd_span4">
-                <a href="{{ direct_investment.href }}" target="_blank">
-                    <div class="revel_team_member revel_team_member_style_1">
-                        <div class="overlay_front">
-                            <div class="revel_overlayed">
-                                <div class="image_container">
-                                    <img src="{{ direct_investment.image }}" alt="{{ direct_investment.title }}">
-                                </div>
-                                <div class="content">
-                                    <h3 class="revel_title">{{ direct_investment.title }}</h3>
-
-                                    <p>{{ direct_investment.subtitle }}</p>
-
-                                    <div class="revel_social_under">
-                                        <span class="link">{{ direct_investment.label }}</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="overlay_back">
+                <div class="revel_team_member revel_team_member_style_1 {{ direct_investment.effect }}">
+                    <div class="overlay_front">
+                        <div class="revel_overlayed">
                             <div class="image_container">
-                                <img src="{{ direct_investment.inversed_image }}" alt="{{ direct_investment.title }}">
+                                <img src="{{ direct_investment.image }}" alt="{{ direct_investment.title }}">
                             </div>
-                            <div class="description">
-                                {{ direct_investment.description }}
+                            <div class="content">
+                                <h3 class="revel_title">{{ direct_investment.title }}</h3>
+
+                                <p>{{ direct_investment.subtitle }}</p>
+
+
                             </div>
                         </div>
                     </div>
-                </a>
+                    <div class="overlay_back">
+                        <div class="image_container">
+                            <img src="{{ direct_investment.inversed_image }}" alt="{{ direct_investment.title }}">
+                        </div>
+                        <div class="description">
+                            {{ direct_investment.description }}
+                        </div>
+
+                        <div class="revel_social_under">
+                            <a href="{{ direct_investment.href }}" target="_blank">
+                                <span class="link">Visit Website</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
             {% endfor %}
         </div>
@@ -182,11 +184,12 @@ published: true
                             <a class="revel_team_member_link" href="#">
                                 <span class="revel_team_member_name">{{ member.name }}</span>
                                 <span class="revel_team_member_position">{{ member.position }}</span>
+                                <div class="description">
+                                    {{ member.description }}
+                                </div>
                             </a>
                         </div>
-                        <p class="overlay_back">{{ member.description }}</p>
                     </div>
-
                 </div>
             </div>
             {% endfor %}

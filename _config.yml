@@ -10,6 +10,9 @@ url: "http://localhost:4000" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
+#Exclude
+exclude: ['css/src', 'node_modules', 'Gruntfile.js', 'package.json', 'npm-debug.log', 'js/sagamore']
+
 # Build settings
 markdown: kramdown
 

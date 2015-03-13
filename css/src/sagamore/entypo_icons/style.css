@@ -5469,6 +5469,14 @@ section#fund_investments{
     width: 335px;
     height: 433px;
     border: 1px solid #f2f2f2;
+    overflow: hidden;
+}
+#direct_investments .revel_team_member .description{
+    margin-bottom: 20px;
+}
+#direct_investments .revel_team_member a,
+#direct_investments .revel_team_member a:hover{
+    color: #375193;
 }
 #direct_investments .revel_team_member .overlay_front{
     top: 0;
@@ -5478,10 +5486,10 @@ section#fund_investments{
     height: 100%;
     z-index: 2;
     background: white;
+    color: #6e7479;
     -moz-transition: all 0.5s ease-in-out 0.2s;
     -webkit-transition: all 0.5s ease-in-out 0.2s;
     transition: all 0.5s ease-in-out 0.2s;
-    color: #6e7479;
 }
 
 #direct_investments .revel_team_member .overlay_back{
@@ -5490,25 +5498,139 @@ section#fund_investments{
     height: 100%;
     z-index: 1;
     background: white;
-    padding: 10px;
+    padding: 10px 20px;
+    overflow: hidden;
+    color: #6e7479;
     -moz-transition: all 0.5s ease-in-out 0.2s;
     -webkit-transition: all 0.5s ease-in-out 0.2s;
     transition: all 0.5s ease-in-out 0.2s;
-    transform: rotateY(-90deg);
-    overflow: hidden;
 }
-#direct_investments .revel_team_member:hover .overlay_front{
-    -moz-transform: rotateY(90deg);
-    -webkit-transform: rotateY(90deg);
-    transform: rotateY(90deg);
-}
-#direct_investments .revel_team_member:hover .overlay_back{
-    background: white;
-    color: #6e7479;
+#direct_investments .revel_team_member.rotate .overlay_front{
     -moz-transform: rotateY(0deg);
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
 }
+#direct_investments .revel_team_member.rotate:hover .overlay_front{
+    -moz-transform: rotateY(90deg);
+    -webkit-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+}
+#direct_investments .revel_team_member.rotate .overlay_back{
+    -moz-transform: rotateY(-90deg);
+    -webkit-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+}
+#direct_investments .revel_team_member.rotate:hover .overlay_back{
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+#direct_investments .revel_team_member.slide_up .overlay_front{
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+#direct_investments .revel_team_member.slide_up:hover .overlay_front{
+    -moz-transform: translateY(-431px);
+    -webkit-transform: translateY(-431px);
+    transform: translateY(-431px);
+}
+#direct_investments .revel_team_member.slide_up .overlay_back{
+    -moz-transform: translateY(431px);
+    -webkit-transform: translateY(431px);
+    transform: translateY(431px);
+}
+#direct_investments .revel_team_member.slide_up:hover .overlay_back{
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+#direct_investments .revel_team_member.slide_down .overlay_front{
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+#direct_investments .revel_team_member.slide_down:hover .overlay_front{
+    -moz-transform: translateY(431px);
+    -webkit-transform: translateY(431px);
+    transform: translateY(431px);
+}
+#direct_investments .revel_team_member.slide_down .overlay_back{
+    -moz-transform: translateY(-431px);
+    -webkit-transform: translateY(-431px);
+    transform: translateY(-431px);
+}
+#direct_investments .revel_team_member.slide_down:hover .overlay_back{
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+#direct_investments .revel_team_member.slide_left .overlay_front{
+    -moz-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+#direct_investments .revel_team_member.slide_left:hover .overlay_front{
+    -moz-transform: translateX(-333px);
+    -webkit-transform: translateX(-333px);
+    transform: translateX(-333px);
+}
+#direct_investments .revel_team_member.slide_left .overlay_back{
+    -moz-transform: translateX(333px);
+    -webkit-transform: translateX(333px);
+    transform: translateX(333px);
+}
+#direct_investments .revel_team_member.slide_left:hover .overlay_back{
+    -moz-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+#direct_investments .revel_team_member.slide_right .overlay_front{
+    -moz-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+#direct_investments .revel_team_member.slide_right:hover .overlay_front{
+    -moz-transform: translateX(333px);
+    -webkit-transform: translateX(333px);
+    transform: translateX(333px);
+}
+#direct_investments .revel_team_member.slide_right .overlay_back{
+    -moz-transform: translateX(-333px);
+    -webkit-transform: translateX(-333px);
+    transform: translateX(-333px);
+}
+#direct_investments .revel_team_member.slide_right:hover .overlay_back{
+    -moz-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+#direct_investments .revel_team_member.slide_corner .overlay_front{
+    -moz-transform: translateX(0) translateY(0);
+    -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+}
+#direct_investments .revel_team_member.slide_corner:hover .overlay_front{
+    -moz-transform: translateX(333px) translateY(431px);
+    -webkit-transform: translateX(333px) translateY(431px);
+    transform: translateX(333px) translateY(431px);
+}
+#direct_investments .revel_team_member.slide_corner .overlay_back{
+    -moz-transform: translateX(-333px) translateY(-431px);
+    -webkit-transform: translateX(-333px) translateY(-431px);
+    transform: translateX(-333px) translateY(-431px);
+}
+#direct_investments .revel_team_member.slide_corner:hover .overlay_back{
+    -moz-transform: translateX(0) translateY(0);
+    -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+}
+
 #direct_investments .overlay_front .content{
     position: absolute;
     top: 130px;
@@ -5555,6 +5677,7 @@ section#fund_investments{
     height: 245px;
     border: 1px solid #f2f2f2;
     margin-bottom: 0;
+    overflow: hidden;
 }
 #team .revel_overlayed .overlay_front{
     top: 0;
@@ -5567,23 +5690,48 @@ section#fund_investments{
     -webkit-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
 }
-#team .revel_overlayed .overlay_front .revel_team_member_link{
+#team .revel_team_member_link{
     background: white;
-    bottom: 0;
     display: block;
-    left: 0;
-    position: absolute;
     width: 100%;
-    z-index: 2;
-    padding: 15px 5px;
+    padding: 10px 5px;
     opacity: 1;
-    min-height: 80px;
+    min-height: 40px;
     color: #375193;
 }
-#team .revel_overlayed .overlay_front .revel_team_member_link .revel_team_member_name{
+#team .revel_overlayed .overlay_front .revel_team_member_link{
+    position: absolute;
+    left: 0;
+    bottom: -140px;
+    z-index: 2;
+    margin-top: 0;
+    height: 200px;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+#team .revel_overlayed .overlay_front .revel_team_member_link .description {
+    margin-top: 1.5em;
+}
+#team .revel_overlayed:hover .overlay_front .revel_team_member_link{
+    bottom: 0;
+    opacity: 0.9;
+}
+#team .revel_overlayed .overlay_back .revel_team_member_link{
+    margin-top: 250px;
+    opacity: 0;
+    -moz-transition: all 0.5s ease-in-out 0.2s;
+    -webkit-transition: all 0.5s ease-in-out 0.2s;
+    transition: all 0.5s ease-in-out 0.2s;
+}
+#team .revel_overlayed:hover .overlay_back .revel_team_member_link{
+    margin-top: 0;
+    opacity: 1;
+}
+#team .revel_overlayed .revel_team_member_link .revel_team_member_name{
     font-size: 24px;
 }
-#team .revel_overlayed .overlay_front .revel_team_member_link .revel_team_member_position{
+#team .revel_overlayed .revel_team_member_link .revel_team_member_position{
     color: #6e7479;
 }
 #team .revel_overlayed .overlay_back{
@@ -5592,16 +5740,19 @@ section#fund_investments{
     height: 100%;
     z-index: 1;
     background: #375193;
-    padding: 10px;
     opacity: 0;
     text-align: center;
     -moz-transition: opacity 0.5s ease-in-out;
     -webkit-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
     z-index: 2;
+    color: white;
 }
 #team .revel_overlayed:hover .overlay_back{
     opacity: 0.9;
+}
+#team .revel_overlayed .overlay_back .description{
+    padding: 10px;
 }
 #contact .contact_icons{
     background: url("../images/contact_icons.png") scroll no-repeat left center transparent;
@@ -5620,5 +5771,5 @@ section#fund_investments{
 .overlay_front a:hover, .overlay_back:hover,
 .overlay_front a:active, .overlay_back:active,
 .overlay_front a:focus, .overlay_back:focus{
-    color: #ffffff;
+    /*color: #ffffff;*/
 }
