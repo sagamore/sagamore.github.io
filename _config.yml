@@ -72,7 +72,7 @@ prose:
         field:
           element: "text"
           label: "Sort"
- _fund_investments:
+    _fund_investments:
       - name: "title"
         field:
           element: "text"
