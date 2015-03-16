@@ -47,4 +47,10 @@ prose:
     - /about.md
     - feed.xml
     - package.json
-    - Gruntfile.js
+    - Gruntfile.js  
+  metadata:
+  	_direct_investments:
+   		- name: "subtitle"
+    		field:
+        	element: "text"
+        	label: "title"
