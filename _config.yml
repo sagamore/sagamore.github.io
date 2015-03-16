@@ -34,14 +34,7 @@ permalink:   /:categories/:title/
 
 prose:
   metadata:
-  	_direct_investments:
-   		- name: "subtitle"
-    		field:
-        	element: "text"
-        	label: "subtitle"
-  rooturl: '_direct_investments'
   siteurl: 'http://fayne-mobilenow.github.io/sagamore/'
-  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'images'
   ignore:
     - /_layouts
