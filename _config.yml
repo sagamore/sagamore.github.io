@@ -38,6 +38,7 @@ prose:
       - name: "title"
         field:
           element: "text"
+          label: "Title"
       - name: "subtitle"
         field:
           element: "text"
