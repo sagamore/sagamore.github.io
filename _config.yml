@@ -46,6 +46,8 @@ prose:
     - /.gitignore
     - /about.md
     - feed.xml
+    - package.json
+    - Gruntfile.js
     
   metadata:
     _team:

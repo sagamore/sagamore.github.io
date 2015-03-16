@@ -64,8 +64,8 @@ module.exports = function(grunt) {
             }
         },
         watch: {
-            files: ['<%= cssmin.minify.src %>', '<%= uglify.minify.files %>'],
-            tasks: ['jshint']
+            files: ['css/src/sagamore/*.css', 'css/src/sagamore/entypo_icons/*.css', 'js/sagamore/src/sagamore/*.js'],
+            tasks: ['cssmin', 'uglify']
         }
     });
 
