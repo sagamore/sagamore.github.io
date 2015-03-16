@@ -52,7 +52,14 @@ module.exports = function(grunt) {
         },
         cssmin: {
             minify: {
-                src: ['css/src/sagamore/*.css', 'css/src/sagamore/entypo_icons/*.css'],
+                src: [
+                    'css/src/sagamore/animo-animate.css',
+                    'css/src/sagamore/settings.css',
+                    'css/src/sagamore/revolution_captions.css',
+                    'css/src/sagamore/entypo_icons/style.css',
+                    'css/src/sagamore/style.css',
+                    'css/src/sagamore/responsive.css'
+                ],
                 dest: 'css/dist/style.min.css'
             }
         },

@@ -5466,7 +5466,7 @@ section#fund_investments{
 }
 #direct_investments .revel_team_member{
     position: relative;
-    width: 335px;
+    /*width: 335px;*/
     height: 433px;
     border: 1px solid #f2f2f2;
     overflow: hidden;
@@ -5673,7 +5673,7 @@ section#fund_investments{
 }
 #team .revel_overlayed{
     position: relative;
-    width: 245px;
+    /*width: 245px;*/
     height: 245px;
     border: 1px solid #f2f2f2;
     margin-bottom: 0;
