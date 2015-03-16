@@ -42,6 +42,8 @@ prose:
       - name: "subtitle"
         field:
           element: "text"
+          label: "Subtitle"
+          placeholder: "This is a subtitle"
       - name: "image"
         field:
           element: "text"
