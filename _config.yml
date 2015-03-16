@@ -82,4 +82,9 @@ prose:
           element: "text"
           label: "Description"
           placeholder: "This is the description field"
+      - name: “sort”
+        field:
+          element: “number”
+          label: “sort”        
+          
  
