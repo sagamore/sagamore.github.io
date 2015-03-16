@@ -1038,7 +1038,7 @@ Author URI: http://www.ab-themes.com
 	.revel_team_member{
 		text-align: center;
 		padding-bottom: 19px;
-		margin-bottom: 49px;
+		margin-bottom: 30px;
 	}
 
 	.revel_team_member .revel_overlayed{
@@ -5467,7 +5467,7 @@ section#fund_investments{
 #direct_investments .revel_team_member{
     position: relative;
     /*width: 335px;*/
-    height: 433px;
+    height: 400px;
     border: 1px solid #f2f2f2;
     overflow: hidden;
 }
