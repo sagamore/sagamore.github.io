@@ -34,16 +34,28 @@ permalink:   /:categories/:title/
 
 prose:
   metadata:
-  siteurl: 'http://fayne-mobilenow.github.io/sagamore/'
-  media: 'images'
-  ignore:
-    - /_layouts
-    - /_sass
-    - /_includes
-    - /css
-    - /js
-    - /.gitignore
-    - /about.md
-    - feed.xml
-    - package.json
-    - Gruntfile.js  
+    _direct_investments:
+      - name: "title"
+        field:
+          element: "text"
+      - name: "subtitle"
+        field:
+          element: "text"
+      - name: "image"
+        field:
+          element: "text"
+      - name: "inversed_image"
+        field:
+          element: "text"
+      - name: "href"
+        field:
+          element: "text"
+      - name: "description"
+        field:
+          element: "text"
+      - name: "effect"
+        field:
+          element: "text"
+      - name: "sort"
+        field:
+          element: "text"
