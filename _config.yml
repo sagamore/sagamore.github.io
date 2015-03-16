@@ -47,18 +47,28 @@ prose:
       - name: "image"
         field:
           element: "text"
+          label: "Logo Image"
+          placeholder: "Input the image URL"
       - name: "inversed_image"
         field:
           element: "text"
+          label: "Inversed Logo Image"
+          placeholder: "Input the inversed image URL"
       - name: "href"
         field:
           element: "text"
+          label: "Link"
+          placeholder: "Input the link"
       - name: "description"
         field:
           element: "text"
+          label: "Full description"
+          placeholder: "Input the full description"
       - name: "effect"
         field:
           element: "text"
+          label: "Hover effect"
       - name: "sort"
         field:
           element: "text"
+          label: "Sort"
