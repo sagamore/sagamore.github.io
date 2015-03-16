@@ -72,3 +72,23 @@ prose:
         field:
           element: "text"
           label: "Sort"
+ _fund_investments:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "subtitle"
+        field:
+          element: "text"
+          label: "Subtitle"
+          placeholder: "This is a subtitle"
+      - name: "description"
+        field:
+          element: "text"
+          label: "Logo Image"
+          placeholder: "Input the image URL"
+       - name: "sort"
+        field:
+          element: "text"
+          label: "Sort"
+ 
