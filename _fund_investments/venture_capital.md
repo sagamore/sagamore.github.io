@@ -1,12 +1,12 @@
 ---
 title:          VENTURE CAPITAL
-description:    The path of a cosmonaut is not an easy, triumphant march to glory. You have to get to know the meaning not just of joy.
+description:    Seed and early stage managers have played an impactful role in fueling dramatic innovation in China.
 links:
    - href: "#"
-     label: "Fund Investment #1"
+     label: "Matrix China"
    - href: "#"
-     label: "Fund Lorem Ipsum #2"
+     label: "Sequoia Ventures"
    - href: "#"
-     label: "Fund Lorem Ipsum #3"
+     label: "Lightspeed China"
 sort:           1
 ---
