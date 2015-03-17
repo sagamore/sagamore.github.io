@@ -73,8 +73,9 @@ prose:
           placeholder: "Input the link"
       - name: "description"
         field:
-          element: "textarea"
+          element: "text"
           label: "Full description"
+          placeholder: "This is the description field"
       - name: "effect"
         field:
           element: "text"
@@ -91,7 +92,7 @@ prose:
           label: "Title"
       - name: "description"
         field:
-          element: "textarea"
+          element: "text"
           label: "Description"
           placeholder: "This is the description field"
       - name: "sort"
