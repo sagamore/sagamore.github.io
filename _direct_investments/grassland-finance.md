@@ -1,5 +1,5 @@
 ---
-title: GRASSLAND FINANCE
+title: GRASSLAND</br> FINANCE
 subtitle: Hong Kong-based financial services holding company serving the micro, small and medium-sized enterprises (MSMEs) in China
 image: images/investment/grassland_img.jpg
 inversed_image: images/investment/grassland_img2.jpg
