@@ -75,8 +75,6 @@ prose:
         field:
           element: "textarea"
           label: "Full description"
-          placeholder: "Input the full description"
-          value: ""
       - name: "effect"
         field:
           element: "text"
@@ -85,6 +83,7 @@ prose:
         field:
           element: "number"
           label: "Sort"
+          type: "number"
     _fund_investments:
       - name: "title"
         field:
@@ -98,6 +97,7 @@ prose:
       - name: "sort"
         field:
           element: "number"
-          label: "Sort"      
+          label: "Sort"
+          type: "number"
           
  
