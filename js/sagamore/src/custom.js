@@ -219,11 +219,13 @@ jQuery(document).ready(function($) {
             $(this).toggleClass('active');
             alert('click after:' + $(this).attr('class'));
             e.preventDefault();
-        }, mouseenter: function () {
+        }, mouseenter: function (e) {
             $(this).addClass("active");
+            e.preventDefault();
             alert('mouseenter after:' + $(this).attr('class'));
-        }, mouseleave: function () {
+        }, mouseleave: function (e) {
             $(this).removeClass("active");
+            e.preventDefault();
             alert('mouseleave after:' + $(this).attr('class'));
         }
 
