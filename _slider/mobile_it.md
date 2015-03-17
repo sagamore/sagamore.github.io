@@ -1,6 +1,6 @@
 ---
 title:      Mobile Internet
-caption:    700 million mobile phone subscribers creating a vibrant social space and commercial market <br/>
+caption:    700 million mobile phone subscribers <br/> creating a vibrant social space and commercial market 
 image:      images/slider/slider2.jpg
 thumb:      images/slider/slider2.jpg
 transition: fade
