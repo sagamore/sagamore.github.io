@@ -5705,10 +5705,10 @@ section#fund_investments{
 #team .revel_overlayed .overlay_front .revel_team_member_link{
     position: absolute;
     left: 0;
-    bottom: -140px;
+    bottom: -180px;
     z-index: 2;
     margin-top: 0;
-    height: 200px;
+    height: 243px;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
@@ -5719,6 +5719,9 @@ section#fund_investments{
 #team .revel_overlayed.active .overlay_front .revel_team_member_link{
     bottom: 0;
     opacity: 0.9;
+}
+#team .revel_overlayed.active .revel_team_member_link{
+    overflow: auto;
 }
 #team .revel_overlayed .overlay_back .revel_team_member_link{
     margin-top: 250px;
