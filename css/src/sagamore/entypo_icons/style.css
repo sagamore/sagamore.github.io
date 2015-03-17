@@ -5483,6 +5483,7 @@ section#fund_investments{
     left: 0;
     position: absolute;
     width: 100%;
+    padding: 0 20px;
     height: 100%;
     z-index: 2;
     background: white;
@@ -5630,14 +5631,16 @@ section#fund_investments{
     -webkit-transform: translateX(0) translateY(0);
     transform: translateX(0) translateY(0);
 }
-
+#direct_investments .revel_team_member .image_container{
+    margin: 0 -20px;
+}
 #direct_investments .overlay_front .content{
     position: absolute;
     top: 130px;
     left: 0;
-    margin: 0 20px;
     background: white;
     padding-top: 20px;
+    width: 100%;
 }
 #direct_investments .overlay_front .content .revel_title {
     color: #375193;

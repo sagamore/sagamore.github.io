@@ -59,8 +59,11 @@ published: true
             <h3>Fund Investments</h3>
 
             <h4>General description about the Investments</h4>
-            
-          <p>We invest in a range of private and public equity funds in order to access great investors at each stage of the capital and innovation cycle.</p>
+
+            <p>We invest in a range of private and public equity funds in order to access great investors at each stage
+                of the capital and innovation cycle.</p>
+        </div>
+    </header>
     <div class="revel_section_content">
         <div class="revel_container">
             {% assign fund_investments = (site.fund_investments | sort: 'sort') %}
@@ -175,7 +178,7 @@ published: true
             {% assign team = (site.team | sort: 'sort') %}
             {% for member in team %}
             <div class="revel_column_dd_span3">
-                <div class="revel_team_member revel_team_member_style_1">
+                <div class="revel_team_member revel_team_member_style_1 revel-animo" data-animation="fadeInUp" data-duration="1000" data-delay="0">
                     <div class="revel_overlayed">
                         <div class="overlay_front">
                             <img src="{{ member.image }}" alt="{{ member.name }}">
