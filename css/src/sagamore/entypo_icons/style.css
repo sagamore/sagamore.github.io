@@ -5511,7 +5511,6 @@ section#fund_investments{
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
 }
-#direct_investments .revel_team_member.rotate:hover .overlay_front,
 #direct_investments .revel_team_member.rotate.active .overlay_front{
     -moz-transform: rotateY(90deg);
     -webkit-transform: rotateY(90deg);
@@ -5522,7 +5521,6 @@ section#fund_investments{
     -webkit-transform: rotateY(-90deg);
     transform: rotateY(-90deg);
 }
-#direct_investments .revel_team_member.rotate:hover .overlay_back,
 #direct_investments .revel_team_member.rotate.active .overlay_back{
     -moz-transform: rotateY(0deg);
     -webkit-transform: rotateY(0deg);
@@ -5534,7 +5532,6 @@ section#fund_investments{
     -webkit-transform: translateY(0);
     transform: translateY(0);
 }
-#direct_investments .revel_team_member.slide_up:hover .overlay_front,
 #direct_investments .revel_team_member.slide_up.active .overlay_front{
     -moz-transform: translateY(-431px);
     -webkit-transform: translateY(-431px);
@@ -5545,7 +5542,6 @@ section#fund_investments{
     -webkit-transform: translateY(431px);
     transform: translateY(431px);
 }
-#direct_investments .revel_team_member.slide_up:hover .overlay_back,
 #direct_investments .revel_team_member.slide_up.active .overlay_back{
     -moz-transform: translateY(0);
     -webkit-transform: translateY(0);
@@ -5557,7 +5553,6 @@ section#fund_investments{
     -webkit-transform: translateY(0);
     transform: translateY(0);
 }
-#direct_investments .revel_team_member.slide_down:hover .overlay_front,
 #direct_investments .revel_team_member.slide_down.active .overlay_front{
     -moz-transform: translateY(431px);
     -webkit-transform: translateY(431px);
@@ -5568,7 +5563,6 @@ section#fund_investments{
     -webkit-transform: translateY(-431px);
     transform: translateY(-431px);
 }
-#direct_investments .revel_team_member.slide_down:hover .overlay_back,
 #direct_investments .revel_team_member.slide_down.active .overlay_back{
     -moz-transform: translateY(0);
     -webkit-transform: translateY(0);
@@ -5580,7 +5574,6 @@ section#fund_investments{
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
-#direct_investments .revel_team_member.slide_left:hover .overlay_front,
 #direct_investments .revel_team_member.slide_left.active .overlay_front{
     -moz-transform: translateX(-333px);
     -webkit-transform: translateX(-333px);
@@ -5591,7 +5584,6 @@ section#fund_investments{
     -webkit-transform: translateX(333px);
     transform: translateX(333px);
 }
-#direct_investments .revel_team_member.slide_left:hover .overlay_back,
 #direct_investments .revel_team_member.slide_left.active .overlay_back{
     -moz-transform: translateX(0);
     -webkit-transform: translateX(0);
@@ -5603,7 +5595,6 @@ section#fund_investments{
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
-#direct_investments .revel_team_member.slide_right:hover .overlay_front,
 #direct_investments .revel_team_member.slide_right.active .overlay_front{
     -moz-transform: translateX(333px);
     -webkit-transform: translateX(333px);
@@ -5614,7 +5605,6 @@ section#fund_investments{
     -webkit-transform: translateX(-333px);
     transform: translateX(-333px);
 }
-#direct_investments .revel_team_member.slide_right:hover .overlay_back,
 #direct_investments .revel_team_member.slide_right.active .overlay_back{
     -moz-transform: translateX(0);
     -webkit-transform: translateX(0);
@@ -5626,7 +5616,6 @@ section#fund_investments{
     -webkit-transform: translateX(0) translateY(0);
     transform: translateX(0) translateY(0);
 }
-#direct_investments .revel_team_member.slide_corner:hover .overlay_front,
 #direct_investments .revel_team_member.slide_corner.active .overlay_front{
     -moz-transform: translateX(333px) translateY(431px);
     -webkit-transform: translateX(333px) translateY(431px);
@@ -5637,7 +5626,6 @@ section#fund_investments{
     -webkit-transform: translateX(-333px) translateY(-431px);
     transform: translateX(-333px) translateY(-431px);
 }
-#direct_investments .revel_team_member.slide_corner:hover .overlay_back,
 #direct_investments .revel_team_member.slide_corner.active .overlay_back{
     -moz-transform: translateX(0) translateY(0);
     -webkit-transform: translateX(0) translateY(0);
@@ -5728,7 +5716,6 @@ section#fund_investments{
 #team .revel_overlayed .overlay_front .revel_team_member_link .description {
     margin-top: 1.5em;
 }
-#team .revel_overlayed:hover .overlay_front .revel_team_member_link,
 #team .revel_overlayed.active .overlay_front .revel_team_member_link{
     bottom: 0;
     opacity: 0.9;
@@ -5740,7 +5727,6 @@ section#fund_investments{
     -webkit-transition: all 0.5s ease-in-out 0.2s;
     transition: all 0.5s ease-in-out 0.2s;
 }
-#team .revel_overlayed:hover .overlay_back .revel_team_member_link,
 #team .revel_overlayed.active .overlay_back .revel_team_member_link{
     margin-top: 0;
     opacity: 1;
@@ -5765,7 +5751,6 @@ section#fund_investments{
     z-index: 2;
     color: white;
 }
-#team .revel_overlayed:hover .overlay_back,
 #team .revel_overlayed.active .overlay_back{
     opacity: 0.9;
 }
