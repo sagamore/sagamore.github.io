@@ -33,6 +33,21 @@ baseurl: /sagamore
 permalink:   /:categories/:title/
 
 prose:
+rooturl: ''
+  siteurl: 'http://fayne-mobilenow.github.io/sagamore/'
+  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  media: 'images'
+  ignore:
+    - /_layouts
+    - /_sass
+    - /_includes
+    - /css
+    - /js
+    - /.gitignore
+    - /about.md
+    - feed.xml
+    - package.json
+    - Gruntfile.js
   metadata:
     _direct_investments:
       - name: "title"
@@ -61,7 +76,7 @@ prose:
           placeholder: "Input the link"
       - name: "description"
         field:
-          element: "text"
+          element: "textarea"
           label: "Full description"
           placeholder: "Input the full description"
       - name: "effect"
@@ -70,7 +85,7 @@ prose:
           label: "Hover effect"
       - name: "sort"
         field:
-          element: "text"
+          element: "number"
           label: "Sort"
     _fund_investments:
       - name: "title"
@@ -79,12 +94,12 @@ prose:
           label: "Title"
       - name: "description"
         field:
-          element: "text"
+          element: "textarea"
           label: "Description"
           placeholder: "This is the description field"
       - name: "sort"
         field:
-          element: "text"
+          element: "number"
           label: "Sort"      
           
  
