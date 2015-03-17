@@ -33,7 +33,7 @@ baseurl: /sagamore
 permalink:   /:categories/:title/
 
 prose:
-rooturl: ''
+  rooturl: ''
   siteurl: 'http://fayne-mobilenow.github.io/sagamore/'
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'images'
