@@ -5468,8 +5468,7 @@ section#fund_investments{
     position: relative;
     /*width: 335px;*/
     height: 400px;
-    border: 1px solid #f2f2f2;
-    overflow: hidden;
+    border: 1px so#contact .contact_iconsen;
 }
 #direct_investments .revel_team_member .description{
     margin-bottom: 20px;
@@ -5762,15 +5761,15 @@ section#fund_investments{
 }
 #contact .contact_icons{
     background: url("../images/contact_icons.png") scroll no-repeat left center transparent;
-    width: 202px;
+    width: 306px;
     height: 202px;
     margin: 0 auto 40px auto;
 }
 #contact .revel_column_dd_span4:nth-child(2) .contact_icons{
-    background-position: -202px center;
+    background-position: -306px center;
 }
 #contact .revel_column_dd_span4:nth-child(3) .contact_icons{
-    background-position: -404px center;
+    background-position: -612px center;
 }
 .overlay_front, .overlay_back,
 .overlay_front a, .overlay_back a,

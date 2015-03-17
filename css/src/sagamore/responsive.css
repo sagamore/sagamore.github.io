@@ -245,7 +245,9 @@
 	#abdev_main_header nav a{
 		color: #fff;
 		margin: 0;
-		padding: 5px 0 5px 0;
+		padding: 5px 0;
+        display: block;
+        text-align: left;
 	}
 
 	#abdev_main_header nav a:hover,
