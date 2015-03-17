@@ -213,6 +213,9 @@ jQuery(document).ready(function($) {
         });
     });
 
+    $('.hoverable').on('click', function () {
+        $(this).toggleClass('active');
+    });
 
     $(window).resize(function() {
 
