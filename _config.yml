@@ -73,7 +73,7 @@ prose:
           placeholder: "Input the link"
       - name: "description"
         field:
-          element: "textarea"
+          element: "text"
           label: "Full description"
           placeholder: "Input the full description"
       - name: "effect"
