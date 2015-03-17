@@ -204,9 +204,8 @@
 		height: 100%;
 		background: #222;
 		z-index: 100000;
-		overflow-y: scroll;
-		overflow-x: hidden;
 		display: none;
+        width: 100%;
 	}
 
 	#abdev_main_header nav .menu_social{
@@ -215,7 +214,9 @@
 
 	#abdev_main_header nav > ul{
 		clear: both;
+        margin-top: 60px;
 		padding-left: 30px;
+        float: none;
 	}
 
 	#abdev_main_header nav > ul > li{
@@ -249,7 +250,7 @@
 
 	#abdev_main_header nav a:hover,
 	#abdev_main_header nav .current-menu-item > a{
-		color: #e42382;
+		color: #375193;
 		background: none;
 	}
 

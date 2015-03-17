@@ -104,7 +104,7 @@ published: true
             {% assign direct_investments = (site.direct_investments | sort: 'sort') %}
             {% for direct_investment in direct_investments limit:6 %}
             <div class="revel_column_dd_span4">
-                <div class="revel_team_member revel_team_member_style_1 {{ direct_investment.effect }}">
+                <div class="revel_team_member revel_team_member_style_1 hoverable {{ direct_investment.effect }}">
                     <div class="overlay_front">
                         <div class="revel_overlayed">
                             <div class="image_container">
@@ -179,16 +179,16 @@ published: true
             {% for member in team %}
             <div class="revel_column_dd_span3">
                 <div class="revel_team_member revel_team_member_style_1 revel-animo" data-animation="fadeInUp" data-duration="1000" data-delay="0">
-                    <div class="revel_overlayed">
+                    <div class="revel_overlayed hoverable">
                         <div class="overlay_front">
                             <img src="{{ member.image }}" alt="{{ member.name }}">
-                            <a class="revel_team_member_link" href="#">
+                            <div class="revel_team_member_link">
                                 <span class="revel_team_member_name">{{ member.name }}</span>
                                 <span class="revel_team_member_position">{{ member.position }}</span>
                                 <div class="description">
                                     {{ member.description }}
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>

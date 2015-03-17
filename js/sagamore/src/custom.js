@@ -170,7 +170,7 @@ jQuery(document).ready(function($) {
 
     var $menu_responsive = $('#abdev_main_header nav');
     $('#ABdev_menu_toggle i').on( "click", function(){
-        $menu_responsive.animate({width:'toggle'},350);
+        $menu_responsive.animate({height:'toggle'},350);
     });
 
 

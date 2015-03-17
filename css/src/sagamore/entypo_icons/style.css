@@ -445,9 +445,9 @@ Author URI: http://www.ab-themes.com
 		display: block;
 		width: 100%;
 		height: 4px;
-		background: #e42382;
-		border-left: 1px solid #e42382;
-		border-right: 1px solid #e42382;
+		background: #375193;
+		border-left: 1px solid #375193;
+		border-right: 1px solid #375193;
 		position: absolute;
 		top: -4px;
 		left: -1px;
@@ -490,10 +490,10 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel-tabs-style2 .ui-tabs-nav li{
-		border-top: 1px solid #e42382;
-		border-left: 1px solid #e42382;
-		border-right: 1px solid #e42382;
-		background: #e42382;
+		border-top: 1px solid #375193;
+		border-left: 1px solid #375193;
+		border-right: 1px solid #375193;
+		background: #375193;
 	}
 
 	.revel-tabs-style2 .ui-tabs-nav li a{
@@ -511,9 +511,9 @@ Author URI: http://www.ab-themes.com
 	.revel-tabs-style2 .ui-tabs-nav li.ui-tabs-active:before{
 		height: 4px;
 		background: #fff;
-		border-top: 1px solid #e42382;
-		border-left: 1px solid #e42382;
-		border-right: 1px solid #e42382;
+		border-top: 1px solid #375193;
+		border-left: 1px solid #375193;
+		border-right: 1px solid #375193;
 		top: -4px;
 		left: -1px;
 	}
@@ -523,11 +523,11 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel-tabs-style2 .ui-tabs-nav li:last-child{
-		border-right: 1px solid #e42382;
+		border-right: 1px solid #375193;
 	}
 
 	.revel-tabs-style2 .revel-tabs-wrapper{
-		border: 1px solid #e42382;
+		border: 1px solid #375193;
 	}
 
 	.tab-icon{
@@ -982,7 +982,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel_stats_excerpt_style_color{
-		background: #e42382;
+		background: #375193;
 	}
 
 	.revel_stats_excerpt_style_color .revel_stats_number,
@@ -1259,7 +1259,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel_pricing-table-1.revel_popular-plan .revel_pricebox_name{
-		background: #e42382;
+		background: #375193;
 		padding: 31px 10px;
 	}
 
@@ -1335,7 +1335,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel_pricing-table-2.revel_popular-plan .revel_pricebox_name{
-		background: #e42382;
+		background: #375193;
 		color: #fff;
 		padding: 25px 10px;
 	}
@@ -1380,7 +1380,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel_pricing-table-2.revel_popular-plan .revel_pricebox_feature:last-of-type{
-		border-bottom: 4px solid #e42382;
+		border-bottom: 4px solid #375193;
 	}
 
 	.revel_pricing-table-2 .revel_button{
@@ -1415,7 +1415,7 @@ Author URI: http://www.ab-themes.com
 		text-indent: 20px;
 		color: #fff;
 		font-size: inherit !important;
-		background: #e42382 !important;
+		background: #375193 !important;
 		height: 14px;
 		line-height: 14px;
 		-webkit-border-radius: 2px;
@@ -1502,7 +1502,7 @@ Author URI: http://www.ab-themes.com
 		-webkit-border-radius: 50px;
 		-moz-border-radius: 50px;
 		border-radius: 50px;
-		background: #e42382;
+		background: #375193;
 		position: relative;
 		margin-bottom: 24px;
 		text-decoration: none;
@@ -1522,9 +1522,9 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel_service_box.revel_service_box_round_stroke:hover .revel_icon_boxed{
-		border: 1px solid #e42382;
+		border: 1px solid #375193;
 		box-shadow: 0 0 0 5px #fff inset;
-		background: #e42382;
+		background: #375193;
 		-webkit-transition: all 180ms ease-in;
 		transition: all 180ms ease-in;
 	}
@@ -1970,7 +1970,7 @@ Author URI: http://www.ab-themes.com
 		background: #f3f3f3;
 		margin-bottom: 20px;
 		padding: 20px;
-		border-left: 6px solid #e42382;
+		border-left: 6px solid #375193;
 		padding: 30px 30px;
 	}
 
@@ -1999,7 +1999,7 @@ Author URI: http://www.ab-themes.com
 
 	.revel-callout_box_no_button{
 		border-left: none;
-		border-top: 6px solid #e42382;
+		border-top: 6px solid #375193;
 	}
 		
 
@@ -2044,8 +2044,8 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel-button_green{
-		background: #e42382;
-		border: 1px solid #e42382;
+		background: #375193;
+		border: 1px solid #375193;
 		color: #fff !important;
 	}
 
@@ -2086,15 +2086,15 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel-button_dark:hover{
-		background: #e42382;
-		border: 1px solid #e42382;
+		background: #375193;
+		border: 1px solid #375193;
 		color: #fff !important;
 	}
 
 	.revel-button_light:hover{
 		background: none;
-		border: 1px solid #e42382;
-		color: #e42382 !important;
+		border: 1px solid #375193;
+		color: #375193 !important;
 	}
 
 	.revel-button_small{
@@ -2166,8 +2166,8 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel-toggle .ui-accordion-header {
-		border: 1px solid #e42382;
-		background: #e42382;
+		border: 1px solid #375193;
+		background: #375193;
 		color:#fff;
 	}
 
@@ -2189,7 +2189,7 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.revel-toggle .ui-accordion-content {
-		border: 1px solid #e42382;
+		border: 1px solid #375193;
 	}
 
 	.revel-accordion .ui-accordion-header-icon{
@@ -2275,7 +2275,7 @@ Author URI: http://www.ab-themes.com
 		left: 0; 
 		filter: alpha(opacity=0); 
 		opacity: 0; 
-		background:#e42382; 
+		background:#375193;
 		-webkit-transition: all 300ms ease-in-out; 
 		-moz-transition: all 300ms ease-in-out; 
 		-o-transition: all 300ms ease-in-out; 
@@ -2866,11 +2866,11 @@ Author URI: http://www.ab-themes.com
 	.revel_dropcap{
 		position: relative;
 		top: 6px;
-		background: #e42382;
+		background: #375193;
 	}
 
 	.section_color_background{
-		background: #e42382;
+		background: #375193;
 		margin-bottom: 0;
 	}
 
@@ -2885,7 +2885,7 @@ Author URI: http://www.ab-themes.com
 		bottom: -40px;
 		width: 70px;
 		height: 5px;
-		background: #e42382;
+		background: #375193;
 	}
 
 	.center_aligned.leading_line:after{
@@ -3249,7 +3249,7 @@ Author URI: http://www.ab-themes.com
 	nav > ul > li > a{
 		padding-left: 16px;
 		padding-right: 16px;
-        border-left: 1px solid #e1e3e6;
+        /*border-left: 1px solid #e1e3e6;*/
 	}
 
     nav > ul > li:first-child > a{
@@ -3497,7 +3497,7 @@ Author URI: http://www.ab-themes.com
 
 	.tp-bullets.simplebullets.round .bullet:hover,
 	.tp-bullets.simplebullets.round .bullet.selected{	
-		background-color:#e42382;
+		background-color:#375193;
 	}
 
 	/*.revelance-small-with-lines:before,*/
@@ -3534,8 +3534,8 @@ Author URI: http://www.ab-themes.com
 
 	.tp-caption.revelance-button:hover{
 		color: #fff;
-		border-color: #e42382;
-		background: #e42382;
+		border-color: #375193;
+		background: #375193;
 		-webkit-transition: all 300ms !important;
 		transition: all 300ms !important;
 	}
@@ -3814,15 +3814,15 @@ Author URI: http://www.ab-themes.com
 	}
 
 	#blog_pagination .page-numbers:hover{
-		background: #e42382;
+		background: #375193;
 		color: #fff;
-		border-color: #e42382;
+		border-color: #375193;
 	}
 	
 	#blog_pagination .page-numbers.current{
-		background: #e42382;
+		background: #375193;
 		color: #fff;
-		border-color: #e42382;
+		border-color: #375193;
 	}
 
 	#blog_pagination .prev{
@@ -3855,10 +3855,10 @@ Author URI: http://www.ab-themes.com
 		display: inline-block;
 		margin: 0 4px;
 		font-size: 12px;
-		border: 1px solid #e42382;
+		border: 1px solid #375193;
 		font-weight: 600;
 		padding: 3px 15px 4px 15px;
-		background: #e42382;
+		background: #375193;
 		color: #fff;
 	}
 
@@ -3876,8 +3876,8 @@ Author URI: http://www.ab-themes.com
 
 	#inner_post_pagination a:hover span{
 		color: #fff;
-		background: #e42382;
-		border-color: #e42382;
+		background: #375193;
+		border-color: #375193;
 	}
 
 
@@ -3909,7 +3909,7 @@ Author URI: http://www.ab-themes.com
 		width: auto;
 		padding: 5px 11px;
 		border: none;
-		background: #e42382 !important;
+		background: #375193 !important;
 		color: #fff !important;
 		margin: 0;
 		font-size: 15px !important;
@@ -4049,8 +4049,8 @@ Author URI: http://www.ab-themes.com
 	}
 
 	.tagcloud a:hover{
-		background: #e42382;
-		border: 1px solid #e42382;
+		background: #375193;
+		border: 1px solid #375193;
 		color: #fff !important;
 	}
 
@@ -4192,7 +4192,7 @@ Author URI: http://www.ab-themes.com
 		height: 34px;
 		line-height: 34px;
 		text-align: center;
-		background: #e42382;
+		background: #375193;
 		color: #fff;
 		display: inline-block;
 		border-radius: 3px;
@@ -4925,7 +4925,7 @@ Author URI: http://www.ab-themes.com
 	/*---------------*/
 
 	figure.effect-sarah {
-		background: #e42382;
+		background: #375193;
 	}
 
 	figure.effect-sarah img {
@@ -5364,9 +5364,9 @@ Author URI: http://www.ab-themes.com
 
 	#filters li:hover a,
 	#filters li a.selected{
-		background: #e42382;
+		background: #375193;
 		color: #fff;
-		border: 1px solid #e42382;
+		border: 1px solid #375193;
 	}
 
 	#filters i{
@@ -5511,7 +5511,8 @@ section#fund_investments{
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
 }
-#direct_investments .revel_team_member.rotate:hover .overlay_front{
+#direct_investments .revel_team_member.rotate:hover .overlay_front,
+#direct_investments .revel_team_member.rotate.active .overlay_front{
     -moz-transform: rotateY(90deg);
     -webkit-transform: rotateY(90deg);
     transform: rotateY(90deg);
@@ -5521,7 +5522,8 @@ section#fund_investments{
     -webkit-transform: rotateY(-90deg);
     transform: rotateY(-90deg);
 }
-#direct_investments .revel_team_member.rotate:hover .overlay_back{
+#direct_investments .revel_team_member.rotate:hover .overlay_back,
+#direct_investments .revel_team_member.rotate.active .overlay_back{
     -moz-transform: rotateY(0deg);
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
@@ -5532,7 +5534,8 @@ section#fund_investments{
     -webkit-transform: translateY(0);
     transform: translateY(0);
 }
-#direct_investments .revel_team_member.slide_up:hover .overlay_front{
+#direct_investments .revel_team_member.slide_up:hover .overlay_front,
+#direct_investments .revel_team_member.slide_up.active .overlay_front{
     -moz-transform: translateY(-431px);
     -webkit-transform: translateY(-431px);
     transform: translateY(-431px);
@@ -5542,7 +5545,8 @@ section#fund_investments{
     -webkit-transform: translateY(431px);
     transform: translateY(431px);
 }
-#direct_investments .revel_team_member.slide_up:hover .overlay_back{
+#direct_investments .revel_team_member.slide_up:hover .overlay_back,
+#direct_investments .revel_team_member.slide_up.active .overlay_back{
     -moz-transform: translateY(0);
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -5553,7 +5557,8 @@ section#fund_investments{
     -webkit-transform: translateY(0);
     transform: translateY(0);
 }
-#direct_investments .revel_team_member.slide_down:hover .overlay_front{
+#direct_investments .revel_team_member.slide_down:hover .overlay_front,
+#direct_investments .revel_team_member.slide_down.active .overlay_front{
     -moz-transform: translateY(431px);
     -webkit-transform: translateY(431px);
     transform: translateY(431px);
@@ -5563,7 +5568,8 @@ section#fund_investments{
     -webkit-transform: translateY(-431px);
     transform: translateY(-431px);
 }
-#direct_investments .revel_team_member.slide_down:hover .overlay_back{
+#direct_investments .revel_team_member.slide_down:hover .overlay_back,
+#direct_investments .revel_team_member.slide_down.active .overlay_back{
     -moz-transform: translateY(0);
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -5574,7 +5580,8 @@ section#fund_investments{
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
-#direct_investments .revel_team_member.slide_left:hover .overlay_front{
+#direct_investments .revel_team_member.slide_left:hover .overlay_front,
+#direct_investments .revel_team_member.slide_left.active .overlay_front{
     -moz-transform: translateX(-333px);
     -webkit-transform: translateX(-333px);
     transform: translateX(-333px);
@@ -5584,7 +5591,8 @@ section#fund_investments{
     -webkit-transform: translateX(333px);
     transform: translateX(333px);
 }
-#direct_investments .revel_team_member.slide_left:hover .overlay_back{
+#direct_investments .revel_team_member.slide_left:hover .overlay_back,
+#direct_investments .revel_team_member.slide_left.active .overlay_back{
     -moz-transform: translateX(0);
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -5595,7 +5603,8 @@ section#fund_investments{
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
-#direct_investments .revel_team_member.slide_right:hover .overlay_front{
+#direct_investments .revel_team_member.slide_right:hover .overlay_front,
+#direct_investments .revel_team_member.slide_right.active .overlay_front{
     -moz-transform: translateX(333px);
     -webkit-transform: translateX(333px);
     transform: translateX(333px);
@@ -5605,7 +5614,8 @@ section#fund_investments{
     -webkit-transform: translateX(-333px);
     transform: translateX(-333px);
 }
-#direct_investments .revel_team_member.slide_right:hover .overlay_back{
+#direct_investments .revel_team_member.slide_right:hover .overlay_back,
+#direct_investments .revel_team_member.slide_right.active .overlay_back{
     -moz-transform: translateX(0);
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -5616,7 +5626,8 @@ section#fund_investments{
     -webkit-transform: translateX(0) translateY(0);
     transform: translateX(0) translateY(0);
 }
-#direct_investments .revel_team_member.slide_corner:hover .overlay_front{
+#direct_investments .revel_team_member.slide_corner:hover .overlay_front,
+#direct_investments .revel_team_member.slide_corner.active .overlay_front{
     -moz-transform: translateX(333px) translateY(431px);
     -webkit-transform: translateX(333px) translateY(431px);
     transform: translateX(333px) translateY(431px);
@@ -5626,7 +5637,8 @@ section#fund_investments{
     -webkit-transform: translateX(-333px) translateY(-431px);
     transform: translateX(-333px) translateY(-431px);
 }
-#direct_investments .revel_team_member.slide_corner:hover .overlay_back{
+#direct_investments .revel_team_member.slide_corner:hover .overlay_back,
+#direct_investments .revel_team_member.slide_corner.active .overlay_back{
     -moz-transform: translateX(0) translateY(0);
     -webkit-transform: translateX(0) translateY(0);
     transform: translateX(0) translateY(0);
@@ -5716,7 +5728,8 @@ section#fund_investments{
 #team .revel_overlayed .overlay_front .revel_team_member_link .description {
     margin-top: 1.5em;
 }
-#team .revel_overlayed:hover .overlay_front .revel_team_member_link{
+#team .revel_overlayed:hover .overlay_front .revel_team_member_link,
+#team .revel_overlayed.active .overlay_front .revel_team_member_link{
     bottom: 0;
     opacity: 0.9;
 }
@@ -5727,7 +5740,8 @@ section#fund_investments{
     -webkit-transition: all 0.5s ease-in-out 0.2s;
     transition: all 0.5s ease-in-out 0.2s;
 }
-#team .revel_overlayed:hover .overlay_back .revel_team_member_link{
+#team .revel_overlayed:hover .overlay_back .revel_team_member_link,
+#team .revel_overlayed.active .overlay_back .revel_team_member_link{
     margin-top: 0;
     opacity: 1;
 }
@@ -5751,7 +5765,8 @@ section#fund_investments{
     z-index: 2;
     color: white;
 }
-#team .revel_overlayed:hover .overlay_back{
+#team .revel_overlayed:hover .overlay_back,
+#team .revel_overlayed.active .overlay_back{
     opacity: 0.9;
 }
 #team .revel_overlayed .overlay_back .description{
