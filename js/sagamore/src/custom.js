@@ -213,23 +213,20 @@ jQuery(document).ready(function($) {
         });
     });
 
-    $('.hoverable').on({
-        click: function (e) {
-            alert('click before:' + $(this).attr('class'));
-            $(this).toggleClass('active');
-            alert('click after:' + $(this).attr('class'));
-            e.preventDefault();
-        }, mouseenter: function (e) {
+    $('.no-touch .hoverable').on({
+        mouseenter: function (e) {
             $(this).addClass("active");
             e.preventDefault();
-            alert('mouseenter after:' + $(this).attr('class'));
         }, mouseleave: function (e) {
             $(this).removeClass("active");
             e.preventDefault();
-            alert('mouseleave after:' + $(this).attr('class'));
         }
-
     });
+    $('.touch .hoverable').on('touchend', function(e){
+        $(this).toggleClass("active");
+        e.preventDefault();
+    });
+
 
     $(window).resize(function() {
 
