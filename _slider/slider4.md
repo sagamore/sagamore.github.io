@@ -1,6 +1,6 @@
 ---
-title:      High tech electronics
-caption:    Investing in innovative electronics such as Xiaomi and Montage Technology
+title:      Investing in Healthcare
+caption:    Improving medical services and developing new drugs
 image:      images/slider/slider4.jpg
 thumb:      images/slider/slider4.jpg
 transition: fade
