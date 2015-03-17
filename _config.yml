@@ -76,6 +76,7 @@ prose:
           element: "textarea"
           label: "Full description"
           placeholder: "Input the full description"
+          value: ""
       - name: "effect"
         field:
           element: "text"
