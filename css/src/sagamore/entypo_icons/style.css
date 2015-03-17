@@ -5486,7 +5486,7 @@ section#fund_investments{
     padding: 0 20px;
     height: 100%;
     z-index: 2;
-    background: white;
+    background: url("../images/arrow_card.png") scroll no-repeat center 370px white;
     color: #6e7479;
     -moz-transition: all 0.5s ease-in-out 0.2s;
     -webkit-transition: all 0.5s ease-in-out 0.2s;
