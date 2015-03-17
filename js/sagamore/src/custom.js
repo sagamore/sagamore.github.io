@@ -214,12 +214,17 @@ jQuery(document).ready(function($) {
     });
 
     $('.hoverable').on({
-        click: function () {
+        click: function (e) {
+            alert('click before:' + $(this).attr('class'));
             $(this).toggleClass('active');
+            alert('click after:' + $(this).attr('class'));
+            e.preventDefault();
         }, mouseenter: function () {
             $(this).addClass("active");
+            alert('mouseenter after:' + $(this).attr('class'));
         }, mouseleave: function () {
             $(this).removeClass("active");
+            alert('mouseleave after:' + $(this).attr('class'));
         }
 
     });
