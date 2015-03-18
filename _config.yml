@@ -9,9 +9,10 @@ baseurl: "/sagamore" # the subpath of your site, e.g. /blog/
 url: "http://fayne-mobilenow.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
+env: "dev"
 
 #Exclude
-exclude: ['css/src', 'node_modules', 'Gruntfile.js', 'package.json', 'npm-debug.log', 'js/sagamore']
+exclude: ['node_modules', 'Gruntfile.js', 'package.json', 'npm-debug.log']
 
 # Build settings
 markdown: kramdown
