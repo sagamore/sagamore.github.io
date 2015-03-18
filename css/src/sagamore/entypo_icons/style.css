@@ -5762,7 +5762,13 @@ section#fund_investments{
     width: 306px;
     height: 202px;
     margin: 0 auto;
+    -webkit-animation: animBg 4s ease-in-out infinite;
     animation: animBg 4s ease-in-out infinite;
+}
+@-webkit-keyframes animBg {
+    0%   { background-color: #375193; }
+    50%  { background-color: #6F757A; }
+    100% { background-color: #375193; }
 }
 @keyframes animBg {
     0%   { background-color: #375193; }
