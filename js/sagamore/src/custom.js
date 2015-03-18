@@ -77,52 +77,74 @@ jQuery(document).ready(function($) {
     var $main_header = $('#abdev_main_header');
     var $main_logo = $('#main_logo');
     var $inversed_logo = $('#inversed_logo');
+    var $mobile_menu_toggle = $('#ABdev_menu_toggle');
 
     var admin_toolbar_height = parseInt($('html').css('marginTop'), 10);
 
-    function header_switch(){
-            if($(document).scrollTop() < $main_slider.height()-80 && $(window).width()>979){
-                if($(document).scrollTop() < $main_header.height()){
-                    $main_header.addClass('menu_over_slider').fadeIn();
-                    $main_logo.hide();
-                    $inversed_logo.show();
+    function header_switch() {
+        $mobile_menu_toggle.hide();
+
+        if ($(document).scrollTop() < $main_slider.height() - 80 && $(window).width() > 979) {
+            if ($(document).scrollTop() < $main_header.height()) {
+                $main_header.addClass('menu_over_slider').fadeIn();
+                $main_logo.hide();
+                $inversed_logo.show();
+            }
+            else {
+                $main_header.fadeOut();
+            }
+        }
+        else {
+            $main_header.removeClass('menu_over_slider').slideDown();
+            $main_logo.show();
+            $inversed_logo.hide();
+
+            if ($(window).width() <= 767) {
+                if ($(document).scrollTop() > $main_slider.height() + $main_header.height()) {
+                    $mobile_menu_toggle.show();
                 }
-                else{
-                    $main_header.fadeOut();
+                else {
+                    $mobile_menu_toggle.hide();
                 }
             }
-            else{
-                $main_header.removeClass('menu_over_slider').slideDown();
-                $main_logo.show();
-                $inversed_logo.hide();
-            }
+        }
     }
 
-    function sticky_header(){
-        if($(window).width()>979){
+    function sticky_header() {
+        if ($(window).width() > 979) {
             $main_header.css({
-                'z-index' : '9999',
-                'visibility' : 'visible',
-                'position' : 'fixed',
-                'top': 0+admin_toolbar_height
+                'z-index': '9999',
+                'visibility': 'visible',
+                'position': 'fixed',
+                'top': 0 + admin_toolbar_height
             });
 
-            if($main_slider.length>0){
+            if ($main_slider.length > 0) {
                 $main_header.addClass('menu_over_slider');
-                $(document).scroll(function(){
+                $(document).scroll(function () {
                     header_switch();
                 });
             }
-            else{
-                $main_header.css('top', 0+admin_toolbar_height);
+            else {
+                $main_header.css('top', 0 + admin_toolbar_height);
             }
         }
-        else{
+        else {
             $main_header.removeClass('menu_over_slider').css({
-                'visibility' : 'visible',
-                'position':'static',
+                'visibility': 'visible',
+                'position': 'static',
                 'top': 0
             });
+
+            if ($main_slider.length > 0) {
+                $main_header.addClass('menu_over_slider');
+                $(document).scroll(function () {
+                    header_switch();
+                });
+            }
+            else {
+                $main_header.css('top', 0 + admin_toolbar_height);
+            }
         }
     }
 
@@ -213,16 +235,14 @@ jQuery(document).ready(function($) {
         });
     });
 
-    $('.no-touch .hoverable').on({
-        mouseenter: function (e) {
-            $(this).addClass("active");
-            e.preventDefault();
-        }, mouseleave: function (e) {
-            $(this).removeClass("active");
-            e.preventDefault();
-        }
+    $('.no-touch .hoverable').hover(function(e){
+        $(this).addClass("active");
+        e.preventDefault();
+    }, function(e){
+        $(this).removeClass("active");
+        e.preventDefault();
     });
-    $('.touch .hoverable').on('touchend', function(e){
+    $('.touch .hoverable').on('click', function(e){
         $(this).toggleClass("active");
         e.preventDefault();
     });
