@@ -8,6 +8,35 @@
     </div>
 </footer>
 
-<script type="text/javascript" src="{{ site.baseurl }}/js/dist/jquery.min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/dist/modernizr.custom.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/dist/jquery.min.js"></script>
+{% if(site.env == "dev" %}
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/rev_slider_init.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/jquery.placeholder.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/jquery.carouFredSel-6.2.1.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/ab-tweet-scroller.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/animo.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/jquery.inview.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/jquery.tipsy.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/jquery.knob-custom.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/jquery.ui.core.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/jquery.ui.widget.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/jquery.ui.accordion.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/jquery.ui.tabs.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/jquery.ui.effect.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/jquery.ui.effect-slide.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/superfish.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/masonry.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/jpreloader.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/waypoints.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/init.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/sagamore/src/custom.js"></script>
+{% else %}
 <script type="text/javascript" src="{{ site.baseurl }}/js/dist/script.min.js"></script>
+{% endif %}
