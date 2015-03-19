@@ -1,5 +1,5 @@
 ---
-title:          Xiaomi
+title:          XIAOMI
 subtitle:       Largest smartphone distributer in China that designs, develops  and sells phones, mobile apps and consumer electronics
 image:          images/investment/xaomi_img.jpg
 inversed_image: images/investment/xaomi_img2.jpg

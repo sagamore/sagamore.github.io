@@ -1,5 +1,5 @@
 ---
-title:          Citic Pharmacuetical
+title:          CITIC </BR> PHARMACUETICAL
 subtitle:       Pharmacuetical manufacturing and distribution company in Shanghai 
 image:          images/investment/aslan_img.jpg
 inversed_image: images/investment/aslan_img2.jpg
