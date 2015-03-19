@@ -1,4 +1,0 @@
----
-name: Mary
-gendor: female
----

@@ -1,25 +1,105 @@
 # Site settings
 title: Sagamore
-email: your-email@domain.com
+email: fayne@mobilenowgroup.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000" # the base hostname & protocol for your site
+baseurl: "/sagamore" # the subpath of your site, e.g. /blog/
+url: "http://fayne-mobilenow.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
+env: "live"
+
+#Exclude
+exclude: ['node_modules', 'Gruntfile.js', 'package.json', 'npm-debug.log']
 
 # Build settings
 markdown: kramdown
 
 # Collections
 collections:
-  team:
-    output: true
-
-# baseurl
-baseurl: /sagamore
+  - team
+  - features
+  - work
+  - slider
+  - fund_investments
+  - direct_investments
+  - contact
 
 #permalink
 permalink:   /:categories/:title/
+
+prose:
+  rooturl: ''
+  siteurl: 'http://fayne-mobilenow.github.io/sagamore/'
+  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  media: 'images'
+  ignore:
+    - /_layouts
+    - /_sass
+    - /_includes
+    - /css
+    - /js
+    - /.gitignore
+    - /about.md
+    - feed.xml
+    - package.json
+    - Gruntfile.js
+  metadata:
+    _direct_investments:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "subtitle"
+        field:
+          element: "text"
+          label: "Subtitle"
+          placeholder: "This is a subtitle"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Logo Image"
+          placeholder: "Input the image URL"
+      - name: "inversed_image"
+        field:
+          element: "text"
+          label: "Inversed Logo Image"
+          placeholder: "Input the inversed image URL"
+      - name: "href"
+        field:
+          element: "text"
+          label: "Link"
+          placeholder: "Input the link"
+      - name: "description"
+        field:
+          element: "text"
+          label: "Full description"
+          placeholder: "This is the description field"
+      - name: "effect"
+        field:
+          element: "text"
+          label: "Hover effect"
+      - name: "sort"
+        field:
+          element: "number"
+          label: "Sort"
+          type: "number"
+    _fund_investments:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description"
+          placeholder: "This is the description field"
+      - name: "sort"
+        field:
+          element: "number"
+          label: "Sort"
+          type: "number"
+          
+ 

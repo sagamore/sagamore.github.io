@@ -1,4 +1,0 @@
----
-name: Tom
-gendor: male
----
