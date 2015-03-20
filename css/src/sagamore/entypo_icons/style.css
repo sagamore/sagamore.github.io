@@ -5758,16 +5758,16 @@ section#fund_investments{
     padding: 10px;
 }
 #contact .contact_bg{
-    background: linear-gradient(270deg, #ff0000, #00ff15, #1100ff);
-    background-size: 600% 600%;
+    background: linear-gradient(270deg, #375193, #6e7479);
+    background-size: 400% 400%;
     width: 306px;
     height: 202px;
     margin: 0 auto;
     position: relative;
-    -webkit-animation: animBg 10s ease infinite;
-    -moz-animation: animBg 10s ease infinite;
-    -o-animation: animBg 10s ease infinite;
-    animation: animBg 10s ease infinite;
+    -webkit-animation: animBg 2s ease infinite;
+    -moz-animation: animBg 2s ease infinite;
+    -o-animation: animBg 2s ease infinite;
+    animation: animBg 2s ease infinite;
 }
 @-webkit-keyframes animBg {
     0%{background-position:0% 50%}
