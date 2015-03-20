@@ -248,6 +248,7 @@
 		padding: 5px 0;
         display: block;
         text-align: left;
+        border-left: none;
 	}
 
 	#abdev_main_header nav a:hover,

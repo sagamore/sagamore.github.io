@@ -3244,6 +3244,7 @@ nav > ul > li a{
     text-align: center;
     display: inline-block;
     padding-bottom: 4px;
+    border-left: 1px solid #e1e3e6;
 }
 
 nav > ul > li > a{

@@ -718,6 +718,7 @@ border-width:0px;
 border-color:rgb(0, 0, 0);
 border-style:none;
 text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+text-align: center;
 }
 
 .tp-caption.revelance-small-with-lines {
