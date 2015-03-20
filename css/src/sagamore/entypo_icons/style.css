@@ -5724,9 +5724,9 @@ section#fund_investments{
 #team .revel_overlayed .overlay_back .revel_team_member_link{
     margin-top: 250px;
     opacity: 0;
-    -moz-transition: all 0.5s ease-in-out 0.2s;
-    -webkit-transition: all 0.5s ease-in-out 0.2s;
-    transition: all 0.5s ease-in-out 0.2s;
+    -moz-transition: all 0.5s ease-in-out 0.1s;
+    -webkit-transition: all 0.5s ease-in-out 0.1s;
+    transition: all 0.5s ease-in-out 0.1s;
 }
 #team .revel_overlayed.active .overlay_back .revel_team_member_link{
     margin-top: 0;
@@ -5759,36 +5759,17 @@ section#fund_investments{
     padding: 10px;
 }
 #contact .contact_bg{
-    background: linear-gradient(270deg, #375193, #6e7479);
-    background-size: 400% 400%;
+    background-color: #6e7479;
     width: 306px;
     height: 202px;
     margin: 0 auto;
     position: relative;
-    -webkit-animation: animBg 2s ease infinite;
-    -moz-animation: animBg 2s ease infinite;
-    -o-animation: animBg 2s ease infinite;
-    animation: animBg 2s ease infinite;
+    -moz-transition: all 0.5s ease-in-out 0.2s;
+    -webkit-transition: all 0.5s ease-in-out 0.2s;
+    transition: all 0.5s ease-in-out 0.2s;
 }
-@-webkit-keyframes animBg {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes animBg {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-o-keyframes animBg {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes animBg {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+#contact .revel_service_box:hover .contact_bg{
+    background-color: #375193;
 }
 #contact .contact_bg .contact_icons{
     position: absolute;
@@ -5804,11 +5785,4 @@ section#fund_investments{
 }
 #contact .revel_column_dd_span4:nth-child(3) .contact_icons{
     background-position: -612px center;
-}
-.overlay_front, .overlay_back,
-.overlay_front a, .overlay_back a,
-.overlay_front a:hover, .overlay_back:hover,
-.overlay_front a:active, .overlay_back:active,
-.overlay_front a:focus, .overlay_back:focus{
-    /*color: #ffffff;*/
 }
