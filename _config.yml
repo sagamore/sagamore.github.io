@@ -46,4 +46,58 @@ prose:
     - feed.xml
     - package.json
     - Gruntfile.js
- 
+  metadata:
+    _direct_investments:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "subtitle"
+        field:
+          element: "text"
+          label: "Subtitle"
+          placeholder: "This is a subtitle"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Logo Image"
+          placeholder: "Input the image URL"
+      - name: "inversed_image"
+        field:
+          element: "text"
+          label: "Inversed Logo Image"
+          placeholder: "Input the inversed image URL"
+      - name: "href"
+        field:
+          element: "text"
+          label: "Link"
+          placeholder: "Input the link"
+      - name: "description"
+        field:
+          element: "text"
+          label: "Full description"
+          placeholder: "This is the description field"
+      - name: "effect"
+        field:
+          element: "text"
+          label: "Hover effect"
+      - name: "sort"
+        field:
+          element: "number"
+          label: "Sort"
+          type: "number"
+    _fund_investments:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description"
+          placeholder: "This is the description field"
+      - name: "sort"
+        field:
+          element: "number"
+          label: "Sort"
+          type: "number"
