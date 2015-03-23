@@ -34,7 +34,7 @@ prose:
   rooturl: ''
   siteurl: 'http://fayne-mobilenow.github.io/sagamore/'
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
-  media: 'images'
+  media: '/images'
   ignore:
     - /_layouts
     - /_sass
