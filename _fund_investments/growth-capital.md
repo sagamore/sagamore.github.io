@@ -8,8 +8,6 @@ links:
     label: Vision Knight
   - href: "#"
     label: Greenwoods Bloom
-  - href: "#"
-    label: Greenwoods Bloom
 sort: 2
 published: true
 ---
