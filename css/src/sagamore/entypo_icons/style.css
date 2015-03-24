@@ -5465,6 +5465,9 @@ section#fund_investments{
 #fund_investments .revel_column_dd_span3:nth-child(4) .fund_investments_icons{
     background-position: -300px center;
 }
+#fund_investments ul{
+    list-style: none;
+}
 #direct_investments .revel_team_member{
     position: relative;
     /*width: 335px;*/
