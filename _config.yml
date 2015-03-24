@@ -99,6 +99,7 @@ prose:
           element: "text"
           label: "Sort"
           type: "text"
+          value: "9"
     _fund_investments:
       - name: "title"
         field:
@@ -114,6 +115,7 @@ prose:
           element: "text"
           label: "Sort"
           type: "text"
+          value: "9"
     _slider:
       - name: "title"
         field:
@@ -149,7 +151,12 @@ prose:
           element: "text"
           label: "Sort"
           type: "text"
+          value: "9"
     _team:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
       - name: "name"
         field:
           element: "text"
@@ -170,6 +177,7 @@ prose:
         field:
           element: "text"
           label: "Sort"
+          value: "9"
     _contact:
       - name: "title"
         field:
@@ -191,3 +199,4 @@ prose:
         field:
           element: "text"
           label: "Sort"
+          value: "9"
