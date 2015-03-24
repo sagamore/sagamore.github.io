@@ -6,5 +6,5 @@ inversed_image: images/investment/CITIC_img2.jpg
 href:           "#"
 description:    Sold to Shanghai Pharma for 8.0x multiple and an IRR of 69%.  Invested in Apr 2007 and harvested in Mar 2011.
 effect:         slide_up
-sort:           6
+sort:           "6"
 ---

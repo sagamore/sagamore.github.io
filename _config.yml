@@ -79,13 +79,26 @@ prose:
           placeholder: "This is the description field"
       - name: "effect"
         field:
-          element: "text"
+          element: "select"
           label: "Hover effect"
+          options:
+            - name: "Slide Up"
+              value: "slide_up"
+            - name: "Slide Down"
+              value: "slide_down"
+            - name: "Slide Left"
+              value: "slide_left"
+            - name: "Slide Right"
+              value: "slide_right"
+            - name: "Slide Corner"
+              value: "slide_corner"
+            - name: "Rotate"
+              value: "rotate"
       - name: "sort"
         field:
-          element: "number"
+          element: "text"
           label: "Sort"
-          type: "number"
+          type: "text"
     _fund_investments:
       - name: "title"
         field:
