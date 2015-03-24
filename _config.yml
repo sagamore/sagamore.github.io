@@ -119,11 +119,6 @@ prose:
           element: "text"
           label: "Thumb"
           placeholder: "Please input same picture path as Image field."
-      - name: "thumb"
-        field:
-          element: "text"
-          label: "Thumb"
-          placeholder: "Please input same picture path as Image field."
       - name: "transition"
         field:
           element: "select"
