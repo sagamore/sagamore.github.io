@@ -98,9 +98,9 @@ prose:
           placeholder: "This is the description field"
       - name: "sort"
         field:
-          element: "number"
+          element: "text"
           label: "Sort"
-          type: "number"
+          type: "text"
     _slider:
       - name: "title"
         field:

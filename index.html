@@ -75,9 +75,7 @@ published: true
                         <h3>{{ fund_investment.title }}</h3>
                     </div>
                     <p>{{ fund_investment.description }}</p>
-                    {% for link in fund_investment.links %}
-                    <div><a href="{{ link.href }}">{{ link.label }}</a></div>
-                    {% endfor %}
+                    <div>{{ fund_investment.content }}</div>
                 </div>
             </div>
             {% endfor %}
