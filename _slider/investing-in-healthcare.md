@@ -5,5 +5,5 @@ image:      images/slider/slider2.jpg
 thumb:      images/slider/slider2.jpg
 transition: fade
 speed:      300
-sort:       4
+sort:       "4"
 ---

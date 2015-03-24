@@ -101,3 +101,43 @@ prose:
           element: "number"
           label: "Sort"
           type: "number"
+    _slider:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "caption"
+        field:
+          element: "text"
+          label: "Caption"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+      - name: "thumb"
+        field:
+          element: "text"
+          label: "Thumb"
+          placeholder: "Please input same picture path as Image field."
+      - name: "thumb"
+        field:
+          element: "text"
+          label: "Thumb"
+          placeholder: "Please input same picture path as Image field."
+      - name: "transition"
+        field:
+          element: "select"
+          label: "Transition"
+          options:
+            - name: "Fade"
+              value: "fade"
+      - name: "speed"
+        field:
+          element: "text"
+          label: "Speed"
+          value: "300"
+      - name: "sort"
+        field:
+          element: "text"
+          label: "Sort"
+          type: "text"
