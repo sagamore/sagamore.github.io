@@ -182,19 +182,19 @@ prose:
       - name: "title"
         field:
           element: "text"
-          lable: "Title"
+          label: "Title"
       - name: "address"
         field:
           element: "text"
-          lable: "Address"
+          label: "Address"
       - name: "telphone"
         field:
           element: "text"
-          lable: "Telphone"
+          label: "Telphone"
       - name: "email"
         field:
           element: "text"
-          lable: "Email"
+          label: "Email"
       - name: "sort"
         field:
           element: "text"
