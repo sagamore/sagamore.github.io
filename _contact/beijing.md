@@ -3,5 +3,5 @@ title:      Beijing
 address:    "Room 905, Block F, Phoenix Place, Tower 21, No. A5 Shuguangxili, Chaoyang District, Beijing, 100028"
 telphone:   ""
 email:      ""
-sort:       1
+sort:       "1"
 ---

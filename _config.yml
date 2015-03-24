@@ -157,3 +157,24 @@ prose:
         field:
           element: "text"
           label: "Sort"
+    _contact:
+      - name: "title"
+        field:
+          element: "text"
+          lable: "Title"
+      - name: "address"
+        field:
+          element: "text"
+          lable: "Address"
+      - name: "telphone"
+        field:
+          element: "text"
+          lable: "Telphone"
+      - name: "email"
+        field:
+          element: "text"
+          lable: "Email"
+      - name: "sort"
+        field:
+          element: "text"
+          label: "Sort"
