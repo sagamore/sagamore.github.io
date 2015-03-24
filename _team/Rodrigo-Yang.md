@@ -6,5 +6,5 @@ description: "<p>Focuses on sourcing new fund and direct investments and leads t
 facebook_url:
 twitter_url:
 google_url:
-sort: 2
+sort: "2"
 ---

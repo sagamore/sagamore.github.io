@@ -8,5 +8,5 @@ description: "<p>Leads investment operations for a number of direct and affiliat
 facebook_url:
 twitter_url:
 google_url:
-sort: 4
+sort: "4"
 ---

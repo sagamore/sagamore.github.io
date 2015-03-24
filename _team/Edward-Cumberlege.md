@@ -8,5 +8,5 @@ description: "<p>Ed works on Sagamore's direct investments in China, principally
 facebook_url:
 twitter_url:
 google_url:
-sort: 7
+sort: "7"
 ---

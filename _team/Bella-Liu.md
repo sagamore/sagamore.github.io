@@ -8,5 +8,5 @@ description: "<p>Fund analytics and diligence. Prior to Sagamore Investments, sh
 facebook_url:
 twitter_url:
 google_url:
-sort: 6
+sort: "6"
 ---

@@ -136,3 +136,24 @@ prose:
           element: "text"
           label: "Sort"
           type: "text"
+    _team:
+      - name: "name"
+        field:
+          element: "text"
+          label: "Name"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+      - name: "position"
+        field:
+          element: "text"
+          label: "Position"
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description"
+      - name: "sort"
+        field:
+          element: "text"
+          label: "Sort"
