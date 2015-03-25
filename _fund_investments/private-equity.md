@@ -1,6 +1,6 @@
 ---
 title: PRIVATE EQUITY
-description: "Larger, late stage investors still offer significant opportunities for our diversified portfolio."
+description: "Larger, late stage investors offer significant opportunities for our diversified portfolio."
 sort: "3"
 published: true
 ---
