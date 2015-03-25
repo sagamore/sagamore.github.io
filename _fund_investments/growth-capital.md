@@ -1,6 +1,6 @@
 ---
 title: GROWTH CAPITAL
-description: Growth Equity managers dominate the large number of traditional and emerging funds in China capitalizing on the broad economic expansion yesterday and today.
+description: Growth Equity managers dominate in China capitalizing on broad economic expansion yesterday and today.
 sort: "2"
 published: true
 ---
