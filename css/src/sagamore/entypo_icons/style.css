@@ -5441,6 +5441,9 @@ figure.effect-chico:hover p {
 body > section{
     border-top: 1px solid #f2f2f2;
 }
+.main_color{
+    color: #375193;
+}
 #abdev_main_slider{
     overflow: hidden;
 }
@@ -5651,6 +5654,7 @@ section#fund_investments{
     font-size: 26px;
     line-height: 30px;
     margin-bottom: 40px;
+    min-height: 60px;
 }
 #direct_investments .overlay_front .content p {
     margin-bottom: 40px;
@@ -5673,6 +5677,15 @@ section#fund_investments{
 }
 #history{
     padding-bottom: 80px;
+}
+#history ul{
+    list-style-type: circle;
+}
+#history ul li{
+    width: 350px;
+    margin: 0 auto 40px;
+    text-align: left;
+    font-size: 18px;
 }
 #team .revel_team_member{
     margin-bottom: 30px;
@@ -5716,6 +5729,11 @@ section#fund_investments{
 }
 #team .revel_overlayed .overlay_front .revel_team_member_link .description {
     margin-top: 1.5em;
+    padding: 0 5px;
+    line-height: 16px;
+}
+#team .revel_overlayed .overlay_front .revel_team_member_link .description *{
+    line-height: inherit;
 }
 #team .revel_overlayed.active .overlay_front .revel_team_member_link{
     margin-top: -243px;
@@ -5723,6 +5741,12 @@ section#fund_investments{
 }
 #team .revel_overlayed.active .revel_team_member_link{
     overflow: auto;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+#team .revel_overlayed .overlay_front .revel_team_member_link::-webkit-scrollbar {
+    display: none;
+    width: 0 !important;
 }
 #team .revel_overlayed .overlay_back .revel_team_member_link{
     margin-top: 250px;
