@@ -202,7 +202,7 @@
 		top: 0;
 		left: 0;
 		height: 100%;
-		background: #222;
+		background: #375193;
 		z-index: 100000;
 		display: none;
         width: 100%;
@@ -249,11 +249,13 @@
         display: block;
         text-align: left;
         border-left: none;
+        line-height: 50px;
+        font-size: 32px;
 	}
 
 	#abdev_main_header nav a:hover,
 	#abdev_main_header nav .current-menu-item > a{
-		color: #375193;
+		color: #fff;
 		background: none;
 	}
 

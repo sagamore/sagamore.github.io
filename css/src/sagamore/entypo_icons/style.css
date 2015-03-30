@@ -5640,6 +5640,14 @@ section#fund_investments{
 }
 #direct_investments .revel_team_member .image_container{
     margin: 0 -20px;
+    height: 180px;
+}
+#direct_investments .revel_team_member .overlay_front .image_container{
+    background: url("../images/direct_investment_bg.png") repeat-x center center transparent;
+
+}
+#direct_investments .revel_team_member .overlay_front .image_container img{
+    margin-top: 20px;
 }
 #direct_investments .overlay_front .content{
     position: absolute;
