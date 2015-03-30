@@ -181,7 +181,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea {
 }
 
 .revel_section_dd header h3{
-    font-family: 'Optima';
+    font-family: 'Optima', 'IrisUPC', 'Times New Roman';
     font-weight: 300;
     display: inline-block;
     color: #375193;
@@ -210,7 +210,6 @@ input[type="text"],input[type="password"],input[type="email"], textarea {
 }
 
 .revel_section_dd header p{
-    font-family: 'Optima';
     font-weight: 300;
     font-size: 18px;
     line-height: 26px;
@@ -966,7 +965,6 @@ input[type="text"],input[type="password"],input[type="email"], textarea {
 .revel_stats_excerpt p{
     font-size: 18px;
     padding-top: 11px;
-    font-family: 'Optima';
     color: #505050;
 }
 
@@ -1978,7 +1976,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea {
     display: block;
     font-weight: 700;
     font-size: 22px;
-    font-family: 'Optima';
+    font-family: 'Optima', 'IrisUPC', 'Times New Roman';
     color: #505050;
     margin-bottom: 8px;
 }
@@ -2535,7 +2533,6 @@ border-radius: 66px;
 }
 
 .ABt_testimonials_slide .testimonial_big p{
-    font-family: 'Optima';
     font-size: 26px;
     font-style: italic;
     line-height: 37px;
@@ -2576,7 +2573,6 @@ border-radius: 66px;
 
 /*-------- 2.39. Hire Us --------*/
 .hire_us{
-    font-family: 'Optima';
     font-weight: 300;
     font-size: 23px;
     line-height: 30px;
@@ -2597,7 +2593,7 @@ border-radius: 66px;
 /* 03. Global styles
 /*-----------------------------------------------------------------*/
 body{
-    font-family: 'Optima', sans-serif;
+    font-family: 'Lucida', 'Times New Roman', 'Optima', sans-serif;
     color: #6e7479;
     font-size: 14px;
     font-weight: 300;
@@ -2678,7 +2674,7 @@ ol{
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Optima';
+    font-family: 'Optima', 'IrisUPC', 'Times New Roman';
     font-weight: 300;
     color: #333;
     margin-bottom: 17px;
@@ -2717,7 +2713,6 @@ h6{
 }
 
 h3 span{
-    font-family: 'Optima';
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
@@ -3205,7 +3200,7 @@ th{
 }
 
 .abdev_main_slider_scroll_info{
-    font-family: 'Optima';
+    font-family: 'Optima', 'IrisUPC', 'Times New Roman';
     text-transform: uppercase;
 }
 
@@ -3238,7 +3233,7 @@ nav > ul > li{
 
 nav > ul > li a{
     color: #375193;
-    font-family: 'Optima';
+    font-family: 'Optima', 'IrisUPC', 'Times New Roman';
     font-weight: 400;
     font-size: 18px;
     text-align: center;
@@ -3419,7 +3414,6 @@ nav > ul > .current-menu-ancestor > a{
 #teaser_bar{
     background: #f6f6f6;
     padding: 55px 0;
-    font-family: 'Optima';
     font-weight: 300;
     font-size: 18px;
 }
@@ -3603,7 +3597,6 @@ nav > ul > .current-menu-ancestor > a{
     font-size: 26px;
     text-transform: uppercase;
     font-weight: 300;
-    font-family: 'Optima';
     margin-bottom: 10px;
     color: #333;
 }
@@ -3755,7 +3748,6 @@ nav > ul > .current-menu-ancestor > a{
 
 #respond .comment-reply-title{
     text-transform: uppercase;
-    font-family: 'Optima';
     font-weight: 700;
     font-size: 22px;
 }
@@ -3787,7 +3779,6 @@ nav > ul > .current-menu-ancestor > a{
     border: none;
     text-transform: uppercase;
     font-weight: 700;
-    font-family: 'Optima';
     font-size: 13px;
     padding: 14px 11px;
     margin-bottom: 23px;
@@ -3914,7 +3905,6 @@ nav > ul > .current-menu-ancestor > a{
     color: #fff !important;
     margin: 0;
     font-size: 15px !important;
-    font-family: 'Optima';
     font-weight: 700;
     text-transform: uppercase;
     line-height: 15px;
@@ -3946,7 +3936,6 @@ aside .widget{
 aside .widget h3{
     font-size: 18px;
     font-weight: 300;
-    font-family: 'Optima';
     text-transform: uppercase;
     color: #333;
     margin-bottom: 10px;
@@ -4024,7 +4013,6 @@ aside .widget select{
 }
 
 .search_resuls_number{
-    font-family: 'Optima';
     font-size: 19px;
     font-weight: 300;
     position: absolute;
@@ -5401,7 +5389,6 @@ figure.effect-chico:hover p {
 #page404 .big_404{
     font-size: 410px;
     line-height: 410px;
-    font-family: 'Optima';
     font-weight: 500;
     color: #375193;
 }
