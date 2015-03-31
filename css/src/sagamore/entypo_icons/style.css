@@ -5493,7 +5493,7 @@ section#fund_investments{
     height: 100%;
     z-index: 1;
     background: white;
-    padding: 10px 20px;
+    padding: 0 20px;
     overflow: hidden;
     color: #6e7479;
     -moz-transition: all 0.5s ease-in-out 0.2s;
