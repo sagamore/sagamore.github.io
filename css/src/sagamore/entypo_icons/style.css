@@ -5717,8 +5717,7 @@ section#fund_investments{
 }
 #team .revel_overlayed .overlay_front .revel_team_member_link{
     margin: -60px auto 0;
-    height: 245px;
-    overflow: auto;
+    height: 248px;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
@@ -5732,8 +5731,9 @@ section#fund_investments{
     line-height: inherit;
 }
 #team .revel_overlayed.active .overlay_front .revel_team_member_link{
-    margin-top: -243px;
+    margin-top: -245px;
     opacity: 0.9;
+    overflow: auto;
 }
 #team .revel_overlayed.active .revel_team_member_link{
     overflow: auto;
