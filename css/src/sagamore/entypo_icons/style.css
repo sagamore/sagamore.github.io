@@ -181,7 +181,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea {
 }
 
 .revel_section_dd header h3{
-    font-family: 'Optima', 'IrisUPC', 'Times New Roman';
+    font-family: 'Optima', 'Times New Roman';
     font-weight: 300;
     display: inline-block;
     color: #375193;
@@ -1976,7 +1976,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea {
     display: block;
     font-weight: 700;
     font-size: 22px;
-    font-family: 'Optima', 'IrisUPC', 'Times New Roman';
+    font-family: 'Optima', 'Times New Roman';
     color: #505050;
     margin-bottom: 8px;
 }
@@ -2674,7 +2674,7 @@ ol{
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Optima', 'IrisUPC', 'Times New Roman';
+    font-family: 'Optima', 'Times New Roman';
     font-weight: 300;
     color: #333;
     margin-bottom: 17px;
@@ -3200,7 +3200,7 @@ th{
 }
 
 .abdev_main_slider_scroll_info{
-    font-family: 'Optima', 'IrisUPC', 'Times New Roman';
+    font-family: 'Optima', 'Times New Roman';
     text-transform: uppercase;
 }
 
@@ -3233,7 +3233,7 @@ nav > ul > li{
 
 nav > ul > li a{
     color: #375193;
-    font-family: 'Optima', 'IrisUPC', 'Times New Roman';
+    font-family: 'Optima', 'Times New Roman';
     font-weight: 400;
     font-size: 18px;
     text-align: center;
@@ -5433,6 +5433,7 @@ body > section{
 }
 #abdev_main_slider{
     overflow: hidden;
+    font-family: 'Optima', 'Times New Roman';
 }
 section#abdev_main_slider,
 section#fund_investments{
