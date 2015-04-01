@@ -1,6 +1,7 @@
 ---
+title: Jing Wang
 name: Jing Wang
-image: images/team/worker_3.jpg
+image: images/team/jing_new.jpg
 position: Director
 description: "<p>Leads diligence efforts for all fund and direct investments.  She worked previously with Mousse Partners, where she was responsible for fund manager diligence and direct co-investments, and Avenue Capital Asia, where she was involved in analyzing non-performing assets. </p>
 
