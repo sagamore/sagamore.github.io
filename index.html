@@ -125,11 +125,13 @@ history:
                             {{ direct_investment.description }}
                         </div>
 
+                        {% if(direct_investment.href) %}
                         <div class="revel_social_under">
                             <a href="{{ direct_investment.href }}" target="_blank">
                                 <span class="link">Visit Website</span>
                             </a>
                         </div>
+                        {% endif %}
                     </div>
                 </div>
             </div>
