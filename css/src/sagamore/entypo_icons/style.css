@@ -5433,7 +5433,7 @@ body > section{
 }
 #abdev_main_slider{
     overflow: hidden;
-    font-family: 'Optima', 'Lucida', 'Times New Roman';
+    font-family: 'Optima', 'Lucida Sans', 'Lucida Grande', 'Times New Roman';
 }
 section#abdev_main_slider,
 section#fund_investments{
