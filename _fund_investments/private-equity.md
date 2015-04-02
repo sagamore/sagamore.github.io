@@ -5,6 +5,6 @@ sort: "3"
 published: true
 ---
 
-- [Hony](#)
-- [CPE China](#)
-- [Ascendent](#)
+- [Hony Capital](www.honycapital.com/hony_en/)
+- [CPE China](www.citiccapital.com/p_equity_china.html)
+- [Ascendent Capital Partners](www.ascendentcp.com/enindex.aspx)
