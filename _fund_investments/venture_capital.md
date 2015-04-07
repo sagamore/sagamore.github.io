@@ -5,6 +5,6 @@ sort: "1"
 published: true
 ---
 
-- [Matrix China Partners](www.matrixpartners.com.cn)
-- [Legend Capital](www.legendcapital.com.cn/en/)
-- [Lightspeed China Partners](lsvp.com/china/)
+- [Matrix China Partners](http://www.matrixpartners.com.cn)
+- [Legend Capital](http://www.legendcapital.com.cn/en/)
+- [Lightspeed China Partners](http://lsvp.com/china/)
