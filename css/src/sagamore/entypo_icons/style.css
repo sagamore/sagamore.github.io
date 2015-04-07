@@ -5710,6 +5710,7 @@ section#fund_investments{
     background-position: -50px -50px;
     margin-bottom: 0;
     padding-bottom: 0;
+    height: 25px;
 }
 #history ul li:first-child:before{
     background-position: 0 -50px;
