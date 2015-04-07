@@ -5674,14 +5674,45 @@ section#fund_investments{
 #history{
     padding-bottom: 80px;
 }
+#history header p{
+    margin-bottom: 40px;
+}
+#history .revel_section_content{
+    padding: 80px 0;
+    background: url("../images/history_image.jpg") scroll repeat-x center center transparent;
+}
 #history ul{
-    list-style-type: circle;
+    list-style: none;
 }
 #history ul li{
-    width: 350px;
-    margin: 0 auto 40px;
+    width: 380px;
+    margin: 0 auto;
     text-align: left;
     font-size: 18px;
+    color: #ffffff;
+    padding: 0 0 25px 25px;
+    line-height: 25px;
+    vertical-align: middle;
+}
+#history ul li:before{
+    background: url("../images/circle_line.png") scroll no-repeat -25px -50px transparent;
+    display: block;
+    float: left;
+    width: 25px;
+    height: 50px;
+    content: " ";
+}
+#history ul li:last-child{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#history ul li:last-child:before{
+    background-position: -50px -50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#history ul li:first-child:before{
+    background-position: 0 -50px;
 }
 #team .revel_team_member{
     margin-bottom: 30px;
