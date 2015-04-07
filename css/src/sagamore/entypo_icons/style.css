@@ -5428,7 +5428,7 @@ figure.effect-chico:hover p {
 body > section{
     border-top: 1px solid #f2f2f2;
 }
-.main_color{
+.main_color, .main_color:hover{
     color: #375193;
 }
 #abdev_main_slider{
