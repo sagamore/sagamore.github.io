@@ -2,12 +2,17 @@
 layout: sagamore
 title: Sagamore
 published: true
-history: 
-  - item: 2002 Firm Established
-  - item: 2006 Sagamore China Partners I (SCP I)
-  - item: 2010 Sagamore China Partners II (SCP II)
-  - item: 2013 Sagamore China Partners III (SCP III)
-  - item: 2016 Sagamore China Partners IV (SCP IV)
+history:
+  - date: 2002
+    content: Firm Established
+  - date: 2006
+    content: Sagamore China Partners I
+  - date: 2010
+    content: Sagamore China Partners II
+  - date: 2013
+    content: Sagamore China Partners III
+  - date: 2016
+    content: Sagamore China Partners IV
 ---
 
 <section id="abdev_main_slider">
@@ -65,7 +70,8 @@ history:
             <h3>Fund Investments</h3>
 
             <p>We invest in private and public equity funds in order to access great investors at each stage
-                of the capital and innovation cycle. We have made over 50 targeted investments in China-focused funds with top-tier managers and key sector exposure. A select sample is presented below.</p>
+                of the capital and innovation cycle. We have made over 50 targeted investments in China-focused funds
+                with top-tier managers and key sector exposure. A select sample is presented below.</p>
         </div>
     </header>
     <div class="revel_section_content">
@@ -81,6 +87,7 @@ history:
                         <h3>{{ fund_investment.title }}</h3>
                     </div>
                     <p>{{ fund_investment.description }}</p>
+
                     <div>{{ fund_investment.content }}</div>
                 </div>
             </div>
@@ -94,7 +101,8 @@ history:
         <div class="revel_container">
             <h3>Direct Investments</h3>
 
-            <p>Sagamore seeks direct investment opportunities in non-strategic, but essential sectors in China such as agriculture, financial services and consumer products.</p>
+            <p>Sagamore seeks direct investment opportunities in non-strategic, but essential sectors in China such as
+                agriculture, financial services and consumer products.</p>
         </div>
     </header>
     <div class="revel_section_content">
@@ -144,23 +152,26 @@ history:
     <header>
         <div class="revel_container">
             <h3>History</h3>
-            
-            <p>Sagamore's founders have worked together since 2002 and have invested in over 100 funds and companies in Asia and the US. Sagamore's first investments focused on biotechnology and expanded to fund and direct investments in China with Sagamore China Partners (SCP) I in 2006. The team raised subquent funds SCP II and SCP III in 2010 and 2013. In total, Sagamore has over $250m in assets under management for investing in opportunities in China.</p>
+
+            <p>Sagamore's founders have worked together since 2002 and have invested in over 100 funds and companies in
+                Asia and the US. Sagamore's first investments focused on biotechnology and expanded to fund and direct
+                investments in China with Sagamore China Partners (SCP) I in 2006. The team raised subquent funds SCP II
+                and SCP III in 2010 and 2013. In total, Sagamore has over $250m in assets under management for investing
+                in opportunities in China.</p>
         </div>
     </header>
     <div class="revel_section_content">
         <div class="revel_container">
-            <div class="revel_column_dd_span12 aligncenter">
-                <div class="revel-animo" data-animation="fadeInUp" data-duration="1000" data-delay="0">
-                    <ul>
-                        {% for history in page.history %}
-                        <li>
-                            {{ history.item }}
-                        </li>
-                        {% endfor %}
-                    </ul>
+            {% for history in page.history %}
+            <div class="revel_column_dd_span4 aligncenter">
+                <div class="timeline">
+                    {{ history.date }}
+                </div>
+                <div class="desc">
+                    {{ history.content }}
                 </div>
             </div>
+            {% endfor %}
         </div>
     </div>
 </section>
@@ -170,7 +181,9 @@ history:
         <div class="revel_container ">
             <h3>Team</h3>
 
-            <p>Led by seasoned entrepreneurs, founders Peter Brooks and Rodrigo Yang, the firm's six professionals are based in Beijing (sourcing and diligence), Hong Kong (investment analytics) and Shanghai (operations).</p>
+            <p>Led by seasoned entrepreneurs, founders Peter Brooks and Rodrigo Yang, the firm's six professionals are
+                based in Beijing (sourcing and diligence), Hong Kong (investment analytics) and Shanghai
+                (operations).</p>
         </div>
     </header>
     <div class="revel_section_content">
@@ -178,13 +191,16 @@ history:
             {% assign team = (site.team | sort: 'sort') %}
             {% for member in team %}
             <div class="revel_column_dd_span3">
-                <div class="revel_team_member revel_team_member_style_1 revel-animo" data-animation="fadeInUp" data-duration="1000" data-delay="0">
+                <div class="revel_team_member revel_team_member_style_1 revel-animo" data-animation="fadeInUp"
+                     data-duration="1000" data-delay="0">
                     <div class="revel_overlayed hoverable">
                         <div class="overlay_front">
                             <img src="{{ member.image }}" alt="{{ member.name }}" width="246" height="246">
+
                             <div class="revel_team_member_link">
                                 <span class="revel_team_member_name">{{ member.name }}</span>
                                 <span class="revel_team_member_position">{{ member.position }}</span>
+
                                 <div class="description">
                                     {{ member.description }}
                                 </div>
@@ -203,7 +219,10 @@ history:
         <div class="revel_container">
             <h3>Contact</h3>
 
-            <p>Sagamore has offices in Beijing, Hong Kong and Shanghai. We are always looking for exciting business opportunities and new talent to join our team. Please <span class="link"><strong><a href="mailto:info@sagainv.com" class="main_color"> contact us</a></strong></span>  for more information.</p>
+            <p>Sagamore has offices in Beijing, Hong Kong and Shanghai. We are always looking for exciting business
+                opportunities and new talent to join our team. Please <span class="link"><strong><a
+                        href="mailto:info@sagainv.com" class="main_color"> contact us</a></strong></span> for more
+                information.</p>
         </div>
     </header>
     <div class="revel_section_content">
