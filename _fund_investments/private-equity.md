@@ -6,5 +6,4 @@ published: true
 ---
 
 - [Hony Capital](http://www.honycapital.com/hony_en/)
-- [CPE China](#)
 - [Ascendent Capital Partners](http://www.ascendentcp.com/enindex.aspx)
