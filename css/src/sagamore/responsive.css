@@ -344,7 +344,7 @@
         float: left;
         color: #375193;
         margin-right: 10px;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 25px;
         vertical-align: middle;
     }
@@ -352,6 +352,7 @@
         float: left;
         line-height: 25px;
         vertical-align: middle;
+        font-size: 16px;
     }
 }
 
