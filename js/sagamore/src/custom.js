@@ -244,7 +244,7 @@ jQuery(document).ready(function($) {
     });
     $('.touch .hoverable').on('click', function(e){
         $(this).toggleClass("active");
-        e.preventDefault();
+        //e.preventDefault();
     });
 
 
