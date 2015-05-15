@@ -2,6 +2,7 @@
     <div class="container">
         <a href="#" id="abdev_back_to_top" title="Back to top">
         </a>
+
         <div id="footer_copyright">
             ©Sagamore 2015. All rights reserved.
         </div>
@@ -40,3 +41,20 @@
 {% else %}
 <script type="text/javascript" src="{{ site.baseurl }}/js/dist/script.min.js"></script>
 {% endif %}
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-63030852-1', 'auto');
+    ga('send', 'pageview');
+
+</script>​
