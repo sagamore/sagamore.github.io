@@ -1,6 +1,6 @@
 ---
 title: Hong Kong
-address: "Level 6, Citibank Tower, 6 Garden Road,<br>Central, Hong Kong"
+address: "Suite 2305, 23/F Office Tower,<br>Convention Plaza, 1 Harbour Road,<br>Wan Chai, Hong Kong"
 telphone: ""
 email: ""
 sort: "2"
