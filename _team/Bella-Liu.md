@@ -1,5 +1,5 @@
 ---
-name: Bella Liu
+name: Bella Li
 image: images/team/bella_liu.jpg
 position: Analyst
 description: "<p>Fund analytics and diligence. Prior to Sagamore Investments, she was an analyst at Copal Partners where she was involved in company analysis and valuation. </p><p>She received a BA in Economics from Beijing Foreign Studies University and an MSc in Investment Management from Cass Business School, London City University.</p>"
