@@ -1,6 +1,6 @@
 ---
 name: ""
-image: images/team/worker_3.jpg
+image: images/team/worker_4.jpg
 position: ""
 description: ""
 facebook_url: null
