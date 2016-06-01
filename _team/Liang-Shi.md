@@ -1,5 +1,5 @@
 ---
-image: images/team/rivka_tang.jpg
+image: images/team/worker_4.jpg
 facebook_url: null
 twitter_url: null
 google_url: null
