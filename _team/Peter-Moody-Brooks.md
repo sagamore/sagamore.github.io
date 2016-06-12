@@ -6,7 +6,7 @@ description: "<p>Oversees asset allocation, investment analytics and operations.
 facebook_url: null
 twitter_url: null
 google_url: null
-sort: "2"
+weight: "2"
 published: true
 title: Untitled
 ---

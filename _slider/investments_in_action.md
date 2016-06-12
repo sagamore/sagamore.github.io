@@ -5,7 +5,7 @@ image: images/slider/slider1.jpg
 thumb: images/slider/slider1.jpg
 transition: fade
 speed: "300"
-sort: "1"
+weight: "1"
 published: true
 ---
 

@@ -6,7 +6,7 @@ description: "<p>Alexey works on investment analytics and research in the Hong K
 facebook_url: null
 twitter_url: null
 google_url: null
-sort: "6"
+weight: "6"
 published: true
 title: Alexey Tyurin
 ---

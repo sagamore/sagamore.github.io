@@ -1,7 +1,7 @@
 ---
 title: HEDGE FUNDS
 description: A modest allocation to elite hedge fund managers provides enhanced liquidity and uncorrelated alpha.
-sort: "4"
+weight: "4"
 published: true
 ---
 

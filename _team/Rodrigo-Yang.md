@@ -6,7 +6,7 @@ description: "<p>Focuses on sourcing new fund and direct investments and leads t
 facebook_url: null
 twitter_url: null
 google_url: null
-sort: "1"
+weight: "1"
 published: true
 title: "Rodrigo Yang-CEO"
 ---

@@ -23,7 +23,7 @@ history:
          style="background-color:#E9E9E9;padding:0px;">
         <div id="rev_slider_1_1" class="rev_slider fullscreenbanner" style="display:none;">
             <ul>
-                {% assign sliders = (site.slider | sort: 'sort') %}
+                {% assign sliders = (site.slider | sort: 'weight') %}
                 {% for slider in sliders limit:6 %}
                 <!-- SLIDE 0 -->
                 <li data-transition="{{ slider.transition }}" data-slotamount="7" data-masterspeed="{{ slider.speed }}"
@@ -79,7 +79,7 @@ history:
     </header>
     <div class="revel_section_content">
         <div class="revel_container">
-            {% assign fund_investments = (site.fund_investments | sort: 'sort') %}
+            {% assign fund_investments = (site.fund_investments | sort: 'weight') %}
             {% for fund_investment in fund_investments limit:4 %}
             <div class="revel_column_dd_span3">
                 <div class="revel_service_box revel_service_box_square">
@@ -110,7 +110,7 @@ history:
     </header>
     <div class="revel_section_content">
         <div class="revel_container direct_investment_container">
-            {% assign direct_investments = (site.direct_investments | sort: 'sort') %}
+            {% assign direct_investments = (site.direct_investments | sort: 'weight') %}
             {% for direct_investment in direct_investments limit:6 %}
             <div class="revel_column_dd_span4">
                 <div class="revel_team_member revel_team_member_style_1 hoverable {{ direct_investment.effect }}">
@@ -191,7 +191,7 @@ history:
     </header>
     <div class="revel_section_content">
         <div class="revel_container team_container">
-            {% assign team = (site.team | sort: 'sort') %}
+            {% assign team = (site.team | sort: 'weight') %}
             {% for member in team %}
             <div class="revel_column_dd_span3">
                 <div class="revel_team_member revel_team_member_style_1 revel-animo" data-animation="fadeInUp"
@@ -230,7 +230,7 @@ history:
     </header>
     <div class="revel_section_content">
         <div class="revel_container">
-            {% assign contacts = (site.contact | sort: 'sort') %}
+            {% assign contacts = (site.contact | sort: 'weight') %}
             {% for contact in contacts %}
             <div class="revel_column_dd_span4">
                 <div class="revel_service_box revel_service_box_square">

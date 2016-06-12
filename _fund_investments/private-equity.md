@@ -1,7 +1,7 @@
 ---
 title: PRIVATE EQUITY
 description: "Larger, late stage investors offer significant opportunities as market leaders prepare for M&A and IPO transactions."
-sort: "3"
+weight: "3"
 published: true
 ---
 

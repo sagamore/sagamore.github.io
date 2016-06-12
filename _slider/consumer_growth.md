@@ -5,5 +5,5 @@ image:      "images/slider/slider5.jpg"
 thumb:      "images/slider/slider5.jpg"
 transition: "fade"
 speed:      "300"
-sort:       "3"
+weight:       "3"
 ---

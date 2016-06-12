@@ -6,7 +6,7 @@ inversed_image: images/investment/lufax_img2.jpg
 href: "http://lufax.com/"
 description: Founded in Sep 2011 as a subsidiary of the PingAn Group, Lufax is presently among the very largest P2P platforms in China.  Sagamore invested in Jan 2015 and expects an IPO in 2017.
 effect: slide_up
-sort: "3"
+weight: "3"
 published: true
 ---
 

@@ -9,5 +9,5 @@ description: "<p>Leads diligence efforts for all fund and direct investments.  S
 facebook_url: https://www.facebook.com/fayne.guo
 twitter_url:
 google_url:
-sort: "3"
+weight: "3"
 ---
