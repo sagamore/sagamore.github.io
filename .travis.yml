@@ -1,2 +1,6 @@
 language: ruby
-script: "jekyll build"
+rvm:
+  - 2.2
+  - jruby
+  - rbx-2
+script: "bundle exec jekyll build"
