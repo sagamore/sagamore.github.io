@@ -1,13 +1,17 @@
 ---
-name: Simon Liu
-image: images/team/liu_yu.jpg
-position: Associate
-description: "<p>Supports post-investment integration and operations for affiliate investments. Simon was formerly Big Data Manager at Beijing ChenRui Technology, Senior Consultant of Alliance PKU Management Consulting and Senior Product Manager of Nokia China.</p> <p>He earned an MBA from the Renmin University of China and BS in Computer Science from Xihua University</p>"
+name: Nick Wang
+image: images/team/nick_wang.jpg
+position: Analyst
+description: >-
+  <p>Nick works on investment analytics and diligence in the Hong Kong office.
+  Previously, Nick spent two years at DemystData, a data analytics platform for
+  the financial services industry.</p> <p>Nick earned a BS in Computer Science
+  and Statistics from The University of Hong Kong.</p>
 facebook_url: null
 twitter_url: null
 google_url: null
-weight: "5"
+weight: '5'
 published: true
 title: Untitled
+sort: '10'
 ---
-
