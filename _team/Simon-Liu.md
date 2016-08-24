@@ -1,6 +1,6 @@
 ---
 name: Nick Wang
-image: images/team/nick_wang2.jpg
+image: images/team/nick_wang3.jpg
 position: Analyst
 description: >-
   <p>Nick works on investment analytics and diligence in the Hong Kong office.
