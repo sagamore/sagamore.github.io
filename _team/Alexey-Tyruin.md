@@ -1,5 +1,5 @@
 ---
-image: images/team/worker_3.jpg
+image: images/team/worker_4.jpg
 facebook_url: null
 twitter_url: null
 google_url: null
