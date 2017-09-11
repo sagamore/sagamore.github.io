@@ -1,10 +1,10 @@
 ---
-image: images/team/Worker_4.jpg
+image: images/team/Worker_5.jpg
 facebook_url: null
 twitter_url: null
 google_url: null
-weight: '8'
+weight: '9'
 published: true
 title: Alexey Tyurin
-sort: '8'
+sort: '9'
 ---
