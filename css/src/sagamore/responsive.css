@@ -11,6 +11,9 @@
 .hidden-desktab {display: none !important;}
 .hidden-phabphone {display: inherit !important;}
 
+#contact .revel_column_dd_span6:nth-child(2) .contact_icons {
+    background-position: -306px center;
+}
 
 @media only screen and (min-width: 980px) and (max-width: 1079px) {
     .revel_column_dd_span3{
@@ -52,10 +55,6 @@
     #history .revel_column_dd_span4:last-child {
         background-position: -703px center;
     }
-    
-    #contact .revel_column_dd_span6:nth-child(2) .contact_icons {
-    background-position: -306px center;
-	}
 
 }
 
@@ -362,9 +361,6 @@
         vertical-align: middle;
         font-size: 16px;
     }
-    #contact .revel_column_dd_span6:nth-child(2) .contact_icons {
-    background-position: -306px center;
-	}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
