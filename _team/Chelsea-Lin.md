@@ -1,7 +1,7 @@
 ---
 name: Chelsea Lin
 image: images/team/CL.jpg
-position: Analyst
+position: Associate
 description: >-
   <p>Conducts fund and direct investment diligence in the Beijing office. Previously analyzed fund investments at Ardian in Beijing, one of the leading international fund of funds specialists operating in China.</p> <p>Chelsea graduated with a BA in Mathematics and Economics from Cambridge University.</p>
 facebook_url: null
