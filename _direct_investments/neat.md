@@ -1,6 +1,6 @@
 ---
 title:          NEAT
-subtitle:       Neat aims to offer more streamlined banking and financial management products than traditional banks.
+subtitle:       Neat aims to offer more streamlined banking and financial management products than traditional banks
 image:          images/investment/neat_img.png
 inversed_image: images/investment/neat_img2.png
 href:           "http://neat.hk/"
