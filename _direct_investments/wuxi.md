@@ -8,7 +8,7 @@ href: 'https://www.wuxiapptec.com'
 description: >-
   Established in December 2000, WuXi AppTec has industry-leading capabilities such as R&D and manufacturing for small molecule drugs, cell and gene therapies, and testing for medical devices.   Sagamore participated in the landmark take-private transaction in 2015.
 effect: slide_up
-weight: '2'
+weight: '4'
 published: true
 sort: '9'
 ---
