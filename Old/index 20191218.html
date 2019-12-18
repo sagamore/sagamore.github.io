@@ -76,7 +76,7 @@ history:
 
             <p>We invest in venture capital funds and growth capital funds in order to access great investors at each stage
                 of the capital and innovation cycle. We have made over 75 targeted investments in China-focused funds
-                with top-tier managers and key sector exposure.</p>
+                with top-tier managers and key sector exposure. A select sample is presented below.</p>
         </div>
     </header>
     <div class="revel_section_content">
@@ -159,8 +159,8 @@ history:
 
             <p>Sagamore's founders have worked together since 2002 and have invested in over 100 funds and companies in
                 Asia and the US. Sagamore's first investments focused on biotechnology and expanded to fund and direct
-                investments in China with Sagamore China Partners I (SCP I) in 2006. The team launched subsequent funds SCP
-                II (2010), SCP III (2013), SCP IV (2016) and SCP V (2018).</p>
+                investments in China with Sagamore China Partners I (SCP I) in 2006. The team raised subsequent funds SCP
+                II (2010), SCP III (2013), SCP IV (2016) and SCP V (2018). In total, Sagamore has over $500m in assets under management for investing in opportunities in China.</p>
         </div>
     </header>
     <div class="revel_section_content">
@@ -221,9 +221,37 @@ history:
         <div class="revel_container">
             <h3>Contact</h3>
 
-            <p>We are always looking for exciting business opportunities and new talent to join our team. Please <span class="link"><strong><a
+            <p>Sagamore has offices in Beijing and Hong Kong. We are always looking for exciting business
+                opportunities and new talent to join our team. Please <span class="link"><strong><a
                         href="mailto:info@sagainv.com" class="main_color"> contact us</a></strong></span> for more
                 information.</p>
         </div>
     </header>
+    <div class="revel_section_content">
+        <div class="revel_container">
+            {% assign contacts = (site.contact | sort: 'weight') %}
+            {% for contact in contacts %}
+            <div class="revel_column_dd_span6">
+                <div class="revel_service_box revel_service_box_square">
+                    <div class="revel_service_box_header">
+                        <div class="contact_bg">
+                            <div class="contact_icons">
+                                &nbsp;
+                            </div>
+                        </div>
+                        <h3>{{ contact.title }}</h3>
+                    </div>
+                    <p>{{ contact.address }}<br/>
+                        {% if contact.telphone %}
+                        {{ contact.telphone }}<br>
+                        {% endif %}
+                        {% if contact.email %}
+                        <a href="mailto:{{ contact.email }}">{{ contact.email }}</a><br>
+                        {% endif %}
+                    </p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
 </section>
