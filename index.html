@@ -162,6 +162,43 @@ history:
     </header>
 </section>
 
+<section id="team" class="revel_section_dd section-users section_with_gray_background">
+    <header>
+        <div class="revel_container ">
+            <h3>Team</h3>
+
+            <p>Led by seasoned entrepreneurs, founders Peter Brooks and Rodrigo Yang, the firm's seven investment professionals are
+                based in Beijing (sourcing and diligence) and Hong Kong (investment analytics).</p>
+        </div>
+    </header>
+    <div class="revel_section_content">
+        <div class="revel_container team_container">
+            {% assign team = (site.team | sort: 'weight') %}
+            {% for member in team %}
+            <div class="revel_column_dd_span3">
+                <div class="revel_team_member revel_team_member_style_1 revel-animo" data-animation="fadeInUp"
+                     data-duration="1000" data-delay="0">
+                    <div class="revel_overlayed hoverable">
+                        <div class="overlay_front">
+                            <img src="{{ member.image }}" alt="{{ member.name }}" width="246" height="246">
+
+                            <div class="revel_team_member_link">
+                                <span class="revel_team_member_name">{{ member.name }}</span>
+                                <span class="revel_team_member_position">{{ member.position }}</span>
+
+                                <div class="description">
+                                    {{ member.description }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
 <section id="contact" class="revel_section_dd section-mail">
     <header>
         <div class="revel_container">
