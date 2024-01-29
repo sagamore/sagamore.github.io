@@ -1,175 +1,32 @@
----
-layout: sagamore
-title: Sagamore
-published: true
-history:
-  - date: 2002
-    content: Firm Established
-  - date: 2006
-    content: Sagamore China Partners I
-  - date: 2010
-    content: Sagamore China Partners II
-  - date: 2013
-    content: Sagamore China Partners III
-  - date: 2016
-    content: Sagamore China Partners IV
-  - date: 2018
-    content: Sagamore China Partners V
----
-
-
-
-
-<section id="abdev_main_slider">
-    <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullscreen-container"
-         style="background-color:#E9E9E9;padding:0px;">
-        <div id="rev_slider_1_1" class="rev_slider fullscreenbanner" style="display:none;">
-            <ul>
-                {% assign sliders = (site.slider | sort: 'weight') %}
-                {% for slider in sliders limit:6 %}
-                <!-- SLIDE 0 -->
-                <li data-transition="{{ slider.transition }}" data-slotamount="7" data-masterspeed="{{ slider.speed }}"
-                    data-thumb="{{ slider.thumb }}" data-saveperformance="off" data-title="{{ slider.title }}">
-                    <!-- MAIN BACKGROUND IMAGE -->
-                    <img src="{{ slider.image }}" alt="{{ slider.title }}" data-bgposition="center top"
-                         data-bgfit="cover"
-                         data-bgrepeat="no-repeat">
-                    <!-- LAYER NR. 1 -->
-                    <div class="tp-caption revelance-big tp-fade tp-resizeme rs-parallaxlevel-10" data-x="center"
-                         data-hoffset="0" data-y="center" data-voffset="-100" data-speed="{{ slider.speed }}"
-                         data-start="0"
-                         data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1"
-                         data-endelementdelay="0.1" data-endspeed="{{ slider.speed }}"
-                         style="z-index: 2; max-width: none; max-height: none; white-space: nowrap;">
-                        {{ slider.title }}
-                    </div>
-                    <!-- LAYER NR. 2 -->
-                    <div class="tp-caption revelance-small-with-lines lfr ltl tp-resizeme rs-parallaxlevel-10"
-                         data-x="center" data-hoffset="0" data-y="center" data-voffset="0"
-                         data-speed="{{ slider.speed }}"
-                         data-start="500" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none"
-                         data-elementdelay="0.1" data-endelementdelay="0.1" data-end="5500"
-                         data-endspeed="{{ slider.speed }}"
-                         style="z-index: 3; max-width: none; max-height: none; white-space: nowrap;">
-                        {{ slider.caption }}<br/>
-                    </div>
-                    <!-- LAYER NR. 3 -->
-                    <div class="tp-caption revelance-button tp-fade tp-resizeme rs-parallaxlevel-10" data-x="center"
-                         data-hoffset="0" data-y="center" data-voffset="80" data-speed="{{ slider.speed }}"
-                         data-start="0"
-                         data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1"
-                         data-endelementdelay="0.1" data-endspeed="{{ slider.speed }}"
-                         style="z-index: 4; max-width: none; max-height: none; white-space: nowrap;">
-                    </div>
-                </li>
-                {% endfor %}
-            </ul>
-            <div class="tp-bannertimer tp-bottom"></div>
-        </div>
-    </div>
-</section>
-
-<section id="fund_investments" class="revel_section_dd section-tools">
-    <header>
-        <div class="revel_container">
-            <h3>Fund Investments</h3>
-
-            <p>We partner with venture capital funds and growth capital funds in order to access category leading companies at each stage of the capital and innovation cycle.</p>
-        </div>
-    </header>
-    <div class="revel_section_content">
-        <div class="revel_container">
-            {% assign fund_investments = (site.fund_investments | sort: 'weight') %}
-            {% for fund_investment in fund_investments limit:4 %}
-            <div class="revel_column_dd_span4">
-                <div class="revel_service_box revel_service_box_square">
-                    <div class="revel_service_box_header">
-                        <div class="fund_investments_icons">
-                            &nbsp;
-                        </div>
-                        <h3>{{ fund_investment.title }}</h3>
-                    </div>
-                    <p>{{ fund_investment.description }}</p>
-
-                    <div>{{ fund_investment.content }}</div>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
-
-<section id="direct_investments" class="revel_section_dd section-users section_with_gray_background">
-    <header>
-        <div class="revel_container">
-            <h3>Direct Investments</h3>
-
-            <p>Sagamore seeks to partner with founders building businesses in line with China's consumption upgrade, looking at sectors including fintech, healthcare, artificial intelligence, and education.</p>
-        </div>
-    </header>
-    <div class="revel_section_content">
-        <div class="revel_container direct_investment_container">
-            {% assign direct_investments = (site.direct_investments | sort: 'weight') %}
-            {% for direct_investment in direct_investments limit:6 %}
-            <div class="revel_column_dd_span4">
-                <div class="revel_team_member revel_team_member_style_1 hoverable {{ direct_investment.effect }}">
-                    <div class="overlay_front">
-                        <div class="revel_overlayed">
-                            <div class="image_container">
-                                <img src="{{ direct_investment.image }}" alt="{{ direct_investment.title }}">
-                            </div>
-                            <div class="content">
-                                <h3 class="revel_title">{{ direct_investment.title }}</h3>
-
-                                <p>{{ direct_investment.subtitle }}</p>
-
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="overlay_back">
-                        <div class="image_container">
-                            <img src="{{ direct_investment.inversed_image }}" alt="{{ direct_investment.title }}">
-                        </div>
-                        <div class="description">
-                            {{ direct_investment.description }}
-                        </div>
-
-                        {% if(direct_investment.href) %}
-                        <div class="revel_social_under">
-                            <a href="{{ direct_investment.href }}" target="_blank">
-                                <span class="link">Visit Website</span>
-                            </a>
-                        </div>
-                        {% endif %}
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
-
-<section id="history" class="revel_section_dd no_padding_bottom section-light-bulb">
-    <header>
-        <div class="revel_container">
-            <h3>History</h3>
-
-            <p>Sagamore's founders have worked together since 2002 and have invested in over 100 funds and companies in
-                Asia and the US. Sagamore's first investments focused on biotechnology and expanded to fund and direct
-                investments in China with Sagamore China Partners in 2006.</p>
-        </div>
-    </header>
-</section>
-
-<section id="contact" class="revel_section_dd section-mail">
-    <header>
-        <div class="revel_container">
-            <h3>Contact</h3>
-
-            <p>We are always looking for exciting business opportunities and new talent to join our team. Please <span class="link"><strong><a
-                        href="mailto:info@sagainv.com" class="main_color"> contact us</a></strong></span> for more
-                information.</p>
-        </div>
-    </header>
-</section>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coming Soon</title>
+    <style>
+        body {
+            background-color: #fcfcfc;
+            font-family: 'Lucida';
+            text-align: center;
+            padding-top: 20%;
+        }
+        h1 {
+            color: #375193;
+            font-size: 40px;
+        }
+        p {
+            color: #6e7479;
+            font-size: 18px;
+            font-family: 'Times New Roman';
+        }
+        a {
+            color: #375193;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Coming Soon</h1>
+    <p>Please <a href="mailto:info@sagainv.com">contact us</a> for more information.</p>
+</body>
+</html>
